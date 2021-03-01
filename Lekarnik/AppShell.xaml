@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="Lekarnik.AppShell"
+       xmlns:views="clr-namespace:Lekarnik.Views"
+       x:Name="shell">
+
+
+
+       <Tab Title="Priznaky" >
+            <ShellContent ContentTemplate="{DataTemplate views:Priznaky}"/>
+       </Tab>
+       <Tab Title="Vitaminy" >
+            <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}"/>
+       </Tab>
+
+        
+</Shell>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lekarnik.Views.VitaminyDetailed"
+             Title="Vitaminy">
+    <ScrollView>
+        <StackLayout Margin="20">
+            <Label Text="{Binding Nazov}"
+                   TextColor="Black"
+                   HorizontalOptions="Center" 
+                   Style="{DynamicResource TitleStyle}" />
+            <Label Text="{Binding Popis}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
