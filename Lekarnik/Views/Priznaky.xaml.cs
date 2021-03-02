@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lekarnik.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace Lekarnik.Views
         public Priznaky()
         {
             InitializeComponent();
+        }
+        async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string elephantNazov = (e.CurrentSelection.FirstOrDefault() as Symp).Nazov_Symptom;
+            await Shell.Current.GoToAsync($"priznakydetails?nazov={elephantNazov}");
         }
     }
 }

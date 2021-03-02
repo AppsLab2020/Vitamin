@@ -35,6 +35,16 @@ namespace Lekarnik
             }
         }
 
+        void RegisterRoutes1()
+        {
+            routes.Add("priznakydetails", typeof(PriznakyDetailed));
+
+            foreach (var item in routes)
+            {
+                Routing.RegisterRoute(item.Key, item.Value);
+            }
+        }
+
         async Task NavigateToRandomPageAsync()
         {
             string destinationRoute = routes.ElementAt(rand.Next(0, routes.Count)).Key;
@@ -44,6 +54,10 @@ namespace Lekarnik
             {
                 case "vitaminydetails":
                     animalNazov = Zoznam.Zoznams.ElementAt(rand.Next(0, Zoznam.Zoznams.Count)).Nazov;
+                    break;
+
+                case "priznakydetails":
+                    animalNazov = Symptom.Symps.ElementAt(rand.Next(0, Symptom.Symps.Count)).Nazov_Symptom;
                     break;
             }
 

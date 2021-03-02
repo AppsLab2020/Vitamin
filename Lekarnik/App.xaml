@@ -38,5 +38,37 @@
             </Grid>
         </DataTemplate>
 
+        <DataTemplate x:Key="AnimalTemplate1">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="1" 
+                       Text="{Binding Nazov_Symptom}" 
+                       FontAttributes="Bold" />
+                <Label Grid.Row="1"
+                       Grid.Column="1" 
+                       Text="{Binding Popis_Symptom}"
+                       FontAttributes="Italic" 
+                       VerticalOptions="End" />
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="AnimalSearchTemplate1">
+            <Grid Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.15*" />
+                    <ColumnDefinition Width="0.85*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="1" 
+                       Text="{Binding Nazov_Symptom}" 
+                       FontAttributes="Bold" />
+            </Grid>
+        </DataTemplate>
     </Application.Resources>
 </Application>
