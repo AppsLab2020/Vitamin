@@ -32,12 +32,12 @@
                                           TextColor="Black"
                                           ItemTemplate="{StaticResource AnimalSearchTemplate1}"
                                           Nieco="{x:Static data:Symptom.Symps}"
-                                          SelectedItemNavigationTarget="{x:Type views:PriznakyDetailed}" />
+                                          SelectedItemNavigationTarget1="{x:Type views:PriznakyDetailed}" />
     </Shell.SearchHandler>
 
     <CollectionView ItemsSource="{x:Static data:Symptom.Symps}"
                     SelectionMode="Single"
-                    SelectionChanged="OnCollectionViewSelectionChanged">
+                    SelectionChanged="OnCollectionViewSelectionChanged1">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid Padding="10">

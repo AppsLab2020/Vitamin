@@ -12,7 +12,7 @@ namespace Lekarnik.Controls
     {
 
         public IList<Symp> Nieco { get; set; }
-        public Type SelectedItemNavigationTarget { get; set; }
+        public Type SelectedItemNavigationTarget1 { get; set; }
 
         protected override void OnQueryChanged(string oldValue, string newValue)
         {
@@ -41,7 +41,7 @@ namespace Lekarnik.Controls
 
         string GetNavigationTarget()
         {
-            return (Shell.Current as AppShell).Routes.FirstOrDefault(route => route.Value.Equals(SelectedItemNavigationTarget)).Key;
+            return (Shell.Current as AppShell).Routes.FirstOrDefault(route => route.Value.Equals(SelectedItemNavigationTarget1)).Key;
         }
 
     }

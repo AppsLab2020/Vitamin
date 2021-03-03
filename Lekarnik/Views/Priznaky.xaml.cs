@@ -17,10 +17,10 @@ namespace Lekarnik.Views
         {
             InitializeComponent();
         }
-        async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
+        async void OnCollectionViewSelectionChanged1(object sender, SelectionChangedEventArgs e)
         {
-            string elephantNazov = (e.CurrentSelection.FirstOrDefault() as Symp).Nazov_Symptom;
-            await Shell.Current.GoToAsync($"priznakydetails?nazov={elephantNazov}");
+            string elephantNazov1 = (e.CurrentSelection.FirstOrDefault() as Symp).Nazov_Symptom;
+            await Shell.Current.GoToAsync($"priznakydetails?nazov_symptom={elephantNazov1}");
         }
     }
 }
