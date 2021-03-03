@@ -20,7 +20,7 @@ namespace Lekarnik.Views
         async void OnCollectionViewSelectionChanged1(object sender, SelectionChangedEventArgs e)
         {
             string elephantNazov1 = (e.CurrentSelection.FirstOrDefault() as Symp).Nazov_Symptom;
-            await Shell.Current.GoToAsync($"priznakydetails?nazov_symptom={elephantNazov1}");
+            await Shell.Current.GoToAsync($"priznakydetails?nazov_Symptom={elephantNazov1}");
         }
     }
 }

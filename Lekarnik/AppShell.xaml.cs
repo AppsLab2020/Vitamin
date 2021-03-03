@@ -24,6 +24,7 @@ namespace Lekarnik
         {
             InitializeComponent();
             RegisterRoutes();
+            BindingContext = this;
             RegisterRoutes1();
             BindingContext = this;
 
@@ -83,7 +84,7 @@ namespace Lekarnik
             }
 
             ShellNavigationState state = Shell.Current.CurrentState;
-            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov_symptom={animalNazov1}");
+            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov_Symptom={animalNazov1}");
             Shell.Current.FlyoutIsPresented = false;
         }
     }
