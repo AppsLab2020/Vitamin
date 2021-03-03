@@ -36,7 +36,7 @@ namespace Lekarnik.Controls
             await Task.Delay(1000);
 
             ShellNavigationState state = (App.Current.MainPage as Shell).CurrentState;
-            await Shell.Current.GoToAsync($"{GetNavigationTarget()}?nazov={((Symp)item).Nazov_Symptom}");
+            await Shell.Current.GoToAsync($"{GetNavigationTarget()}?nazov_Symptom={((Symp)item).Nazov_Symptom}");
         }
 
         string GetNavigationTarget()
