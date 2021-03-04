@@ -5,10 +5,10 @@
        xmlns:views="clr-namespace:Lekarnik.Views"
        x:Name="shell">
 
-
-
-       <Tab Title="Priznaky" >
-            <ShellContent ContentTemplate="{DataTemplate views:Priznaky}"/>
+   
+     
+            <Tab Title="Priznaky">
+            <ShellContent ContentTemplate="{DataTemplate views:Priznaky}" />
        </Tab>
        <Tab Title="Vitaminy" >
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}"/>

@@ -5,7 +5,8 @@
              xmlns:data="clr-namespace:Lekarnik.Data"
              xmlns:views="clr-namespace:Lekarnik.Views"
              x:Class="Lekarnik.Views.Priznaky"
-             Title="Príznaky">
+             Title="Príznaky"
+             BackgroundColor="Black">
     
     <ContentPage.Resources>
         <Style TargetType="Grid">
@@ -51,14 +52,14 @@
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="1"
                        Text="{Binding Nazov_Symptom}"
-                       TextColor="Green"
-                       FontAttributes="Bold" />
-                    <Label Grid.Row="1"
-                       Grid.Column="1"
-                       TextColor="Green"
-                       Text="{Binding Popis_Symptom}"
-                       FontAttributes="Italic"
-                       VerticalOptions="End" />
+                       TextColor="Yellow" 
+                       FontAttributes="Bold"
+                       TextType="Text"
+                       FontSize="Medium" Padding="0,0,0,0" 
+                        
+                           />
+
+
                 </Grid>
             </DataTemplate>
         </CollectionView.ItemTemplate>

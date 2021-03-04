@@ -104,8 +104,32 @@ namespace Lekarnik.Data
 
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "BOlesť svalov",
+                Nazov_Symptom = "Bolesť svalov",
                 Popis_Symptom = "H pomôže"
+            });
+
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Bolesť nôh a ramien",
+                Popis_Symptom = "B12 pomôže"
+            });
+
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Mravčenie v končatinách",
+                Popis_Symptom = "B12 pomôže"
+            });
+
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Spomalené reflexy",
+                Popis_Symptom = "B12 pomôže"
+            });
+
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Problém s chôdzov",
+                Popis_Symptom = "B12 pomôže"
             });
         }
     }
