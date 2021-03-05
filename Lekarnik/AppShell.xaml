@@ -5,13 +5,13 @@
        xmlns:views="clr-namespace:Lekarnik.Views"
        x:Name="shell">
 
-   
-     
-            <Tab Title="Priznaky">
-            <ShellContent ContentTemplate="{DataTemplate views:Priznaky}" />
+    
+
+    <Tab Title="Priznaky">
+        <ShellContent ContentTemplate="{DataTemplate views:Priznaky}" Shell.TabBarBackgroundColor="Black" Shell.TabBarTitleColor="Green" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
        </Tab>
        <Tab Title="Vitaminy" >
-            <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}"/>
+        <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="Black" Shell.TabBarTitleColor="Green" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
        </Tab>
 
         
