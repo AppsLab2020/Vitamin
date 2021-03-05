@@ -11,17 +11,11 @@ namespace Lekarnik.Data
         static Symptom()
         {
             Symps = new List<Symp>();
-
+            
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Bolesť svalov",
-                Popis_Symptom = "H pomôže"
-            });
-
-            Symps.Add(new Symp
-            {
-                Nazov_Symptom = "Bolesť nôh a ramien",
-                Popis_Symptom = "B12 pomôže"
+                Nazov_Symptom = "Biele škvrny na nechtoch",
+                Popis_Symptom = "Zinok pomôže"
             });
 
             Symps.Add(new Symp
@@ -29,7 +23,7 @@ namespace Lekarnik.Data
                 Nazov_Symptom = "Bledosť",
                 Popis_Symptom = "Železo pomôže"
             });
-
+            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Bolesť kĺbov",
@@ -38,8 +32,14 @@ namespace Lekarnik.Data
             
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Biele škvrny na nechtoch",
-                Popis_Symptom = "Zinok pomôže"
+                Nazov_Symptom = "Bolesť nôh a ramien",
+                Popis_Symptom = "B12 pomôže"
+            });
+            
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Bolesť svalov",
+                Popis_Symptom = "H pomôže"
             });
 
             Symps.Add(new Symp
@@ -77,19 +77,19 @@ namespace Lekarnik.Data
                 Nazov_Symptom = "Infekcie",
                 Popis_Symptom = "Zinok pomôže"
             });
+           
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Kazivosť zubov",
+                Popis_Symptom = "Vámpnik pomôže"
+            });
 
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Koža posiatá škvrnami ",
                 Popis_Symptom = "A pomôže"
             });
-
-            Symps.Add(new Symp
-            {
-                Nazov_Symptom = "Kŕče v nohách",
-                Popis_Symptom = "B6 pomôže"
-            });
-           
+            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Krvácanie z nosa alebo z ďasien",
@@ -98,10 +98,10 @@ namespace Lekarnik.Data
            
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Kazivosť zubov",
-                Popis_Symptom = "Vámpnik pomôže"
+                Nazov_Symptom = "Kŕče v nohách",
+                Popis_Symptom = "B6 pomôže"
             });
-
+            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Lámanie nechtov",
@@ -119,7 +119,18 @@ namespace Lekarnik.Data
                 Nazov_Symptom = "Mravčenie v končatinách",
                 Popis_Symptom = "B12 pomôže"
             });
-
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Nervozita",
+                Popis_Symptom = "Horčík pomôže"
+            });
+            
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Nespavosť",
+                Popis_Symptom = "H pomôže a draslík"
+            });
+            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Nízka hladina cukru v krvi",
@@ -128,42 +139,25 @@ namespace Lekarnik.Data
 
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Nespavosť",
-                Popis_Symptom = "H pomôže a draslík"
-            });
-
-            Symps.Add(new Symp
-            {
-                Nazov_Symptom = "Nervozita",
-                Popis_Symptom = "Horčík pomôže"
-            });
-
-            Symps.Add(new Symp
-            {
                 Nazov_Symptom = "Odlupovanie kože na tvári",
                 Popis_Symptom = "B2 pomôže"
             });
-
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Podráždenosť",
-                Popis_Symptom = "B1 pomôže a vápnik"
+                Nazov_Symptom = "Pleť plná akné",
+                Popis_Symptom = "Horčík pomôže"
             });
-
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Pľuzgiere a kútiky",
                 Popis_Symptom = "B2 pomôže"
             });
-
-         
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Problém s chôdzov",
-                Popis_Symptom = "B12 pomôže"
+                Nazov_Symptom = "Podráždenosť",
+                Popis_Symptom = "B1 pomôže a vápnik"
             });
-
-
+            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Pomalé hojenie rán",
@@ -172,8 +166,8 @@ namespace Lekarnik.Data
 
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Pleť plná akné",
-                Popis_Symptom = "Horčík pomôže"
+                Nazov_Symptom = "Problém s chôdzov",
+                Popis_Symptom = "B12 pomôže"
             });
 
             Symps.Add(new Symp
@@ -184,14 +178,14 @@ namespace Lekarnik.Data
 
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Suchá pleť",
-                Popis_Symptom = "F pomôže"
+                Nazov_Symptom = "Strata chute do jedla",
+                Popis_Symptom = "B1 pomôže"
             });
 
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Strata chute do jedla",
-                Popis_Symptom = "B1 pomôže"
+                Nazov_Symptom = "Suchá pleť",
+                Popis_Symptom = "F pomôže"
             });
 
             Symps.Add(new Symp
@@ -211,46 +205,42 @@ namespace Lekarnik.Data
                 Nazov_Symptom = "Vypadavanie vlasov",
                 Popis_Symptom = "Železo pomôže"
             });
-
+            
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Zlá zrážanlivosť krvi",
-                Popis_Symptom = "K pomôže"
+                Nazov_Symptom = "Zabúdanie",
+                Popis_Symptom = "B1 pomôže"
             });
-
-
-            Symps.Add(new Symp
-            {
-                Nazov_Symptom = "Zlá sustredenosť",
-                Popis_Symptom = "Zinok pomôže"
-            });
-
-
-            Symps.Add(new Symp
-            {
-                Nazov_Symptom = "Zlá nálada",
-                Popis_Symptom = "Zinok pomôže"
-            });
-
 
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zápcha",
                 Popis_Symptom = "Horčík pomôže"
             });
-
+            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zhoršené videnie",
                 Popis_Symptom = "A pomôže"
             });
+           
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Zlá nálada",
+                Popis_Symptom = "Zinok pomôže"
+            });
 
             Symps.Add(new Symp
             {
-                Nazov_Symptom = "Zbúdanie",
-                Popis_Symptom = "B1 pomôže"
+                Nazov_Symptom = "Zlá sustredenosť",
+                Popis_Symptom = "Zinok pomôže"
             });
-
+            
+            Symps.Add(new Symp
+            {
+                Nazov_Symptom = "Zlá zrážanlivosť krvi",
+                Popis_Symptom = "K pomôže"
+            });
         }
     }
 }
