@@ -8,5 +8,9 @@ namespace Lekarnik.Models
     {
           public string Nazov_Symptom { get; set; }
           public string Popis_Symptom { get; set; }
+          public string Vyskyt_Strave_Symptom { get; set; }
+          public string Upozornenia_Symptom { get; set; }
+          public string Davkovanie_Symptom { get; set; }
+          public string ImageUrl_Symptom { get; set; }
     }
 }

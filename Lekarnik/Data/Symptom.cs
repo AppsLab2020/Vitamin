@@ -62,9 +62,13 @@ namespace Lekarnik.Data
 
            Symps.Add(new Symp
             {
-                Nazov_Symptom = "Hnačky a črevné problémy",
-                Popis_Symptom = "A pomôže"
-            });
+               Nazov_Symptom = "Hnačky a črevné problémy",
+               ImageUrl_Symptom = "vitamin_A",
+               Popis_Symptom = "Nedostatok vytamímu A môže spôsobiť:\nzhoršené videnie,\nhnačka a črevné problémy, \nhrubá koža posiata škvrnamy, \nstrata chuti, \nzastavenie rastu, \nporucha obranyschopnosti, \nšeroslepota, \nvysychanie slizníc(napr.očí – t.j.poškodená rohovka)",
+               Vyskyt_Strave_Symptom = "Vitamín A nachádzame v živočíšnych produktoch ako sú pečeň, mäso, vajcia alebo rybí tuk. \nProvitamínom vitamínu A je betakarotén, z ktorého sa v tele vytvára vitamín A.\nBetakarotén nachádzame v žltooranžovej zelenine.",
+               Upozornenia_Symptom = "Prejavy predávkovania vitamínom A:            nevoľnosť a vracanie, \napatia, \nsuchá koža, \npadanie vlasov, \nporuchy videnia, \nkrvácanie, \nbolesti kĺbov.",
+               Davkovanie_Symptom = "Odporúčané denné dávky sú nasledovné:                   deti do 3 rokov − 0,4 mg, \ndeti 4 − 6 rokov − 0,5 mg, \ndeti 7 − 10 rokov − 0,7 mg, \ndeti a dospelí nad 10 rokov − 1 mg, \ndojčiace ženy − 1,6 mg"
+           });
 
             Symps.Add(new Symp
             {
@@ -87,9 +91,13 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Koža posiatá škvrnami ",
-                Popis_Symptom = "A pomôže"
+                ImageUrl_Symptom = "vitamin_A",
+                Popis_Symptom = "Nedostatok vytamímu A môže spôsobiť:\nzhoršené videnie,\nhnačka a črevné problémy, \nhrubá koža posiata škvrnamy, \nstrata chuti, \nzastavenie rastu, \nporucha obranyschopnosti, \nšeroslepota, \nvysychanie slizníc(napr.očí – t.j.poškodená rohovka)",
+                Vyskyt_Strave_Symptom = "Vitamín A nachádzame v živočíšnych produktoch ako sú pečeň, mäso, vajcia alebo rybí tuk. \nProvitamínom vitamínu A je betakarotén, z ktorého sa v tele vytvára vitamín A.\nBetakarotén nachádzame v žltooranžovej zelenine.",
+                Upozornenia_Symptom = "Prejavy predávkovania vitamínom A:            nevoľnosť a vracanie, \napatia, \nsuchá koža, \npadanie vlasov, \nporuchy videnia, \nkrvácanie, \nbolesti kĺbov.",
+                Davkovanie_Symptom = "Odporúčané denné dávky sú nasledovné:                   deti do 3 rokov − 0,4 mg, \ndeti 4 − 6 rokov − 0,5 mg, \ndeti 7 − 10 rokov − 0,7 mg, \ndeti a dospelí nad 10 rokov − 1 mg, \ndojčiace ženy − 1,6 mg"
             });
-            
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Krvácanie z nosa alebo z ďasien",
@@ -221,9 +229,13 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zhoršené videnie",
-                Popis_Symptom = "A pomôže"
+                ImageUrl_Symptom = "vitamin_A",
+                Popis_Symptom = "Nedostatok vytamímu A môže spôsobiť:\nzhoršené videnie,\nhnačka a črevné problémy, \nhrubá koža posiata škvrnamy, \nstrata chuti, \nzastavenie rastu, \nporucha obranyschopnosti, \nšeroslepota, \nvysychanie slizníc(napr.očí – t.j.poškodená rohovka)",
+                Vyskyt_Strave_Symptom = "Vitamín A nachádzame v živočíšnych produktoch ako sú pečeň, mäso, vajcia alebo rybí tuk. \nProvitamínom vitamínu A je betakarotén, z ktorého sa v tele vytvára vitamín A.\nBetakarotén nachádzame v žltooranžovej zelenine.",
+                Upozornenia_Symptom = "Prejavy predávkovania vitamínom A:            nevoľnosť a vracanie, \napatia, \nsuchá koža, \npadanie vlasov, \nporuchy videnia, \nkrvácanie, \nbolesti kĺbov.",
+                Davkovanie_Symptom = "Odporúčané denné dávky sú nasledovné:                   deti do 3 rokov − 0,4 mg, \ndeti 4 − 6 rokov − 0,5 mg, \ndeti 7 − 10 rokov − 0,7 mg, \ndeti a dospelí nad 10 rokov − 1 mg, \ndojčiace ženy − 1,6 mg"
             });
-           
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zlá nálada",

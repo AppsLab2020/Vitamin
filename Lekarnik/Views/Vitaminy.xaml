@@ -54,12 +54,7 @@
                        Text="{Binding Nazov}"
                        TextColor="Yellow"
                        FontAttributes="Bold" />
-                    <Label Grid.Row="1"
-                       Grid.Column="1"
-                       TextColor="Yellow"
-                       Text="{Binding Popis}"
-                       FontAttributes="Italic"
-                       VerticalOptions="End" />
+                    
                 </Grid>
             </DataTemplate>
         </CollectionView.ItemTemplate>

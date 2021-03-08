@@ -9,7 +9,22 @@
                    TextColor="Black"
                    HorizontalOptions="Center" 
                    Style="{DynamicResource TitleStyle}" />
+            <Image Source="{Binding ImageUrl}" 
+                   
+                   HorizontalOptions="CenterAndExpand" />
             <Label Text="{Binding Popis}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+            <Label Text="{Binding Vyskyt_Strave}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+            <Label Text="{Binding Upozornenia}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+            <Label Text="{Binding Davkovanie}" 
                    TextColor="Black"
                    FontAttributes="Italic" 
                    HorizontalOptions="Center" />

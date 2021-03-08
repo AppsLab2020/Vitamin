@@ -23,6 +23,19 @@
                        Text="{Binding Popis}"
                        FontAttributes="Italic" 
                        VerticalOptions="End" />
+                <Image Source="{Binding ImageUrl}" 
+                   
+                   HorizontalOptions="CenterAndExpand" />
+                <Label Grid.Row="2"
+                       Grid.Column="1" 
+                       Text="{Binding Vyskyt_Strave}"
+                       FontAttributes="Italic" 
+                       VerticalOptions="End" />
+                <Label Grid.Row="3"
+                       Grid.Column="1" 
+                       Text="{Binding Upozornenia}"
+                       FontAttributes="Italic" 
+                       VerticalOptions="End" />
             </Grid>
         </DataTemplate>
 
@@ -51,11 +64,25 @@
                 <Label Grid.Column="1" 
                        Text="{Binding Nazov_Symptom}" 
                        FontAttributes="Bold" />
-                <Label Grid.Row="1"
-                       Grid.Column="1" 
-                       Text="{Binding Popis_Symptom}"
-                       FontAttributes="Italic" 
-                       VerticalOptions="End" />
+                <Image Source="{Binding ImageUrl_Symptom}" 
+                   
+                   HorizontalOptions="CenterAndExpand" />
+                    <Label Text="{Binding Popis_Symptom}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+                    <Label Text="{Binding Vyskyt_Strave_Symptom}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+                    <Label Text="{Binding Upozornenia_Symptom}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+                    <Label Text="{Binding Davkovanie_Symptom}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
             </Grid>
         </DataTemplate>
 
