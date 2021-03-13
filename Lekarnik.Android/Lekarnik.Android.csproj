@@ -121,10 +121,13 @@
     <AndroidResource Include="Resources\drawable\vitamin_B.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\vitamin_B2.jfif" />
+    <AndroidResource Include="Resources\drawable\vitamin_C.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\vitamin_C.jpg" />
+    <AndroidResource Include="Resources\drawable\vitamin_B6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vitamin_B2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

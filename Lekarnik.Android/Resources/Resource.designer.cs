@@ -8412,7 +8412,13 @@ namespace Lekarnik.Droid
 			public const int vitamin_B2 = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int xamarin_logo = 2131165310;
+			public const int vitamin_B6 = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int vitamin_C = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int xamarin_logo = 2131165312;
 			
 			static Drawable()
 			{
