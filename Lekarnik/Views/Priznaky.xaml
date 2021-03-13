@@ -31,7 +31,7 @@
                                           ShowsResults="true"
                                           BackgroundColor="White"
                                           TextColor="Black"
-                                          ItemTemplate="{StaticResource AnimalSearchTemplate1}"
+                                          ItemTemplate="{StaticResource SearchTemplate1}"
                                           Nieco="{x:Static data:Symptom.Symps}"
                                           SelectedItemNavigationTarget1="{x:Type views:PriznakyDetailed}" />
     </Shell.SearchHandler>

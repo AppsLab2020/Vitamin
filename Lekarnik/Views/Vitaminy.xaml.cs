@@ -13,8 +13,8 @@ namespace Lekarnik.Views
 
         async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            string elephantNazov = (e.CurrentSelection.FirstOrDefault() as Vita).Nazov;
-            await Shell.Current.GoToAsync($"vitaminydetails?nazov={elephantNazov}");
+            string XNazov = (e.CurrentSelection.FirstOrDefault() as Vita).Nazov;
+            await Shell.Current.GoToAsync($"vitaminydetails?nazov={XNazov}");
         }
         protected override bool OnBackButtonPressed()
         {

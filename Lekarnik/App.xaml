@@ -5,7 +5,7 @@
              x:Class="Lekarnik.App"
              windows:Application.ImageDirectory="Assets">
     <Application.Resources>
-        <DataTemplate x:Key="AnimalTemplate">
+        <DataTemplate x:Key="Template">
             <Grid Padding="10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -39,7 +39,7 @@
             </Grid>
         </DataTemplate>
 
-        <DataTemplate x:Key="AnimalSearchTemplate">
+        <DataTemplate x:Key="SearchTemplate">
             <Grid Padding="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.15*" />
@@ -51,7 +51,7 @@
             </Grid>
         </DataTemplate>
 
-        <DataTemplate x:Key="AnimalTemplate1">
+        <DataTemplate x:Key="Template1">
             <Grid Padding="10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -86,7 +86,7 @@
             </Grid>
         </DataTemplate>
 
-        <DataTemplate x:Key="AnimalSearchTemplate1">
+        <DataTemplate x:Key="SearchTemplate1">
             <Grid Padding="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.15*" />

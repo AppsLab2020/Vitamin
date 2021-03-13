@@ -53,38 +53,38 @@ namespace Lekarnik
         async Task NavigateToRandomPageAsync()
         {
             string destinationRoute = routes.ElementAt(rand.Next(0, routes.Count)).Key;
-            string animalNazov = null;
+            string XXNazov = null;
 
             switch (destinationRoute)
             {
                 case "vitaminydetails":
-                    animalNazov = Zoznam.Zoznams.ElementAt(rand.Next(0, Zoznam.Zoznams.Count)).Nazov;
+                    XXNazov = Zoznam.Zoznams.ElementAt(rand.Next(0, Zoznam.Zoznams.Count)).Nazov;
                     break;
 
                
             }
 
             ShellNavigationState state = Shell.Current.CurrentState;
-            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov={animalNazov}");
+            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov={XXNazov}");
             Shell.Current.FlyoutIsPresented = false;
         }
 
         async Task NavigateToRandomPageAsync1()
         {
             string destinationRoute = routes.ElementAt(rand.Next(0, routes.Count)).Key;
-            string animalNazov1 = null;
+            string XXNazov1 = null;
 
             switch (destinationRoute)
             {
                 case "priznakydetails":
-                    animalNazov1 = Symptom.Symps.ElementAt(rand.Next(0, Symptom.Symps.Count)).Nazov_Symptom;
+                    XXNazov1 = Symptom.Symps.ElementAt(rand.Next(0, Symptom.Symps.Count)).Nazov_Symptom;
                     break;
 
 
             }
 
             ShellNavigationState state = Shell.Current.CurrentState;
-            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov_Symptom={animalNazov1}");
+            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov_Symptom={XXNazov1}");
             Shell.Current.FlyoutIsPresented = false;
         }
     }

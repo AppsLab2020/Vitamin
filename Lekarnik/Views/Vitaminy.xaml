@@ -31,7 +31,7 @@
                                           ShowsResults="true"
                                           BackgroundColor="White"
                                           TextColor="Black"
-                                          ItemTemplate="{StaticResource AnimalSearchTemplate}"
+                                          ItemTemplate="{StaticResource SearchTemplate}"
                                           Daco="{x:Static data:Zoznam.Zoznams}"
                                           SelectedItemNavigationTarget="{x:Type views:VitaminyDetailed}" />
     </Shell.SearchHandler>
