@@ -6,7 +6,7 @@
              xmlns:views="clr-namespace:Lekarnik.Views"
              x:Class="Lekarnik.Views.Vitaminy"
              Title="Vitaminy"
-             BackgroundColor="Black">
+             BackgroundColor="White">
 
     <ContentPage.Resources>
         <Style TargetType="Grid">
@@ -16,7 +16,7 @@
                         <VisualState x:Name="Normal" />
                         <VisualState x:Name="Selected">
                             <VisualState.Setters>
-                                <Setter Property="BackgroundColor" Value="White" />
+                                <Setter Property="BackgroundColor" Value="Transparent" />
                             </VisualState.Setters>
                         </VisualState>
                     </VisualStateGroup>
@@ -52,8 +52,10 @@
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="1"
                        Text="{Binding Nazov}"
-                       TextColor="Yellow"
-                       FontAttributes="Bold" />
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       TextType="Text"
+                       FontSize="Medium" Padding="0,0,0,0"/>
                     
                 </Grid>
             </DataTemplate>
