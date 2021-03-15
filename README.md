@@ -21,5 +21,5 @@ Bude tam aj možnosť symptómy a ak vás bude niečo trápiť dokážete zisti�
 <li> xamarin shell vyhľadávanie</li> 
 <li> preklíkávanie medzi vitamínmi a symptomámi </li>
 <li> splash screen a exitbox</li>
-<li> spracovanie viektorých vitamínov</li>
+<li> spracovanie niektorých vitamínov</li>
 </ol>
