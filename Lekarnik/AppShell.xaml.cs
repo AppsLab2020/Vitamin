@@ -7,6 +7,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Lekarnik.Data;
 using Lekarnik.Views;
+using Plugin.Messaging;
 
 namespace Lekarnik
 {
@@ -86,6 +87,14 @@ namespace Lekarnik
             ShellNavigationState state = Shell.Current.CurrentState;
             await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nazov_Symptom={XXNazov1}");
             Shell.Current.FlyoutIsPresented = false;
+        }
+        private void EmailClick_Clicked(object sender, EventArgs e)
+        {
+            var emailMessenger = CrossMessaging.Current.EmailMessenger;
+            if (emailMessenger.CanSendEmail)
+            {
+                emailMessenger.SendEmail("skuska@gmail.com", "Chyba aplikacie/navrh na vylepsenie", "");
+            }
         }
     }
 }
