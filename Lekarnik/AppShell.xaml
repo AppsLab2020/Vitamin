@@ -15,5 +15,16 @@
         </Tab>
     </FlyoutItem>
     <MenuItem Text="Spätná väzba"
-              Clicked="EmailClick_Clicked" />
+              Clicked="EmailClick_Clicked"
+              IconImageSource="feedback.png"/>
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="200">
+                <Image Aspect="AspectFill"
+                       Source="flyout_header.jpg"
+                       Opacity="0.9"/>
+            </Grid>            
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
 </Shell>
