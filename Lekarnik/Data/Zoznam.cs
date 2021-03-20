@@ -54,7 +54,12 @@ namespace Lekarnik.Data
             Zoznams.Add(new Vita
             {
                 Nazov = "Vitamín B12",
-                Popis = "Dobry vitamin"
+                ImageUrl = "vitamin_B12",
+                Popis = "Nedostatok vytamínu B6 môže spôsobiť: \nbolesť nôh a ramien, \nmravčenie v končatinách, \nproblém s chôdzou, \nspomalené reflexy, \ndýchavičnosť. Vitamín B12 je dôležitý predovšetkým pre správnu funkciu krvotvorby, podieľa sa na syntéze DNA a ATP a je nevyhnutný pre správnu funkciu nervového systému."
+                Vyskyt_Strave = "Hlavným zdrojom tohto vitamínu v potrave sú živočíšne produkty: vajcia, mlieko, syry, mäso a vnútornosti.",
+                Upozornenia = "1 z 1000 ľudí môže mať - alergické reakcie (svrbenie, kožná vyrážka, žihľavka, akné)",
+                Davkovanie = "Dávkovanie majú všetci rovnaké. \nDenná dávka 300 µg, \ntehotné ženy by sa mali poradiť s lekárom"
+
             });
             
             Zoznams.Add(new Vita
@@ -70,8 +75,14 @@ namespace Lekarnik.Data
             Zoznams.Add(new Vita
             {
                 Nazov = "Vitamín F",
-                Popis = "Dobry vitamin"
-            });
+                ImageUrl = "",
+                Popis = "Dobry vitamin",
+                Vyskyt_Strave ="",
+                Upozornenia ="",
+                Davkovanie =  ""
+              
+
+    });
           
             Zoznams.Add(new Vita
             {
