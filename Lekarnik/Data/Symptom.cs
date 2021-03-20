@@ -33,9 +33,14 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Bolesť nôh a ramien",
-                Popis_Symptom = "B12 pomôže"
+                ImageUrl_Symptom = "vitamin_B12",
+                Popis_Symptom = "Nedostatok vytamínu B6 môže spôsobiť: \nbolesť nôh a ramien, \nmravčenie v končatinách, \nproblém s chôdzou, \nspomalené reflexy, \ndýchavičnosť. \n\nVitamín B12 je dôležitý predovšetkým pre správnu funkciu krvotvorby, podieľa sa na syntéze DNA a ATP a je nevyhnutný pre správnu funkciu nervového systému.",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú živočíšne produkty: vajcia, mlieko, syry, mäso a vnútornosti.",
+                Upozornenia_Symptom = "1 z 1000 ľudí môže mať - alergické reakcie (svrbenie, kožná vyrážka, žihľavka, akné)",
+                Davkovanie_Symptom = "Dávkovanie majú všetci rovnaké.                                          Denná dávka 300 µg, \ntehotné ženy by sa mali poradiť s lekárom."
+
             });
-            
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Bolesť svalov",
@@ -129,19 +134,34 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Lámanie nechtov",
-                Popis_Symptom = "F pomôže"
+                ImageUrl_Symptom = "vitamin_F",
+                Popis_Symptom = "Nedostatok Vitamínu F môže spôsobiť: \nlámanie nechtov, \nlupiny, \nsuchá pleť, \nbolesti hlavy, \nzníženie krvného tlaku, \nporuchy metabolizmu, \nkožné problémy. \n\nVitamín F je v skutočnosti spoločné pomenovanie pre zmesku niekoľkých mastných kyselín ako OMEGA-3 a OMEGA-6 mastné kyseliny. Vitamín F je pre život nevyhnutný.  Telo si ho nevie samé vytvoriť, organizmu musí byť preto dodávaný potravou",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú: rastlinný olej, morské živočíchy (langusta, homár), ryby (losos, sleď), vlašské orechy, semienka (slnečnica, tekvica, ľan), sója, mandle, obilné klíčky, avokádo, olej z ľanových semienok.",
+                Upozornenia_Symptom = "Prejavy predávkovania Vitamínu F:               priberanie na váhe, \nkožné ekzémy, \nakné.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka 6-8 mg.                                       "
+
             });
 
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Lupiny",
-                Popis_Symptom = "F pomôže"
+                ImageUrl_Symptom = "vitamin_F",
+                Popis_Symptom = "Nedostatok Vitamínu F môže spôsobiť: \nlámanie nechtov, \nlupiny, \nsuchá pleť, \nbolesti hlavy, \nzníženie krvného tlaku, \nporuchy metabolizmu, \nkožné problémy. \n\nVitamín F je v skutočnosti spoločné pomenovanie pre zmesku niekoľkých mastných kyselín ako OMEGA-3 a OMEGA-6 mastné kyseliny. Vitamín F je pre život nevyhnutný.  Telo si ho nevie samé vytvoriť, organizmu musí byť preto dodávaný potravou",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú: rastlinný olej, morské živočíchy (langusta, homár), ryby (losos, sleď), vlašské orechy, semienka (slnečnica, tekvica, ľan), sója, mandle, obilné klíčky, avokádo, olej z ľanových semienok.",
+                Upozornenia_Symptom = "Prejavy predávkovania Vitamínu F:               priberanie na váhe, \nkožné ekzémy, \nakné.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka 6-8 mg.                                       "
+
             });
            
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Mravčenie v končatinách",
-                Popis_Symptom = "B12 pomôže"
+                ImageUrl_Symptom = "vitamin_B12",
+                Popis_Symptom = "Nedostatok vytamínu B6 môže spôsobiť: \nbolesť nôh a ramien, \nmravčenie v končatinách, \nproblém s chôdzou, \nspomalené reflexy, \ndýchavičnosť. \n\nVitamín B12 je dôležitý predovšetkým pre správnu funkciu krvotvorby, podieľa sa na syntéze DNA a ATP a je nevyhnutný pre správnu funkciu nervového systému.",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú živočíšne produkty: vajcia, mlieko, syry, mäso a vnútornosti.",
+                Upozornenia_Symptom = "1 z 1000 ľudí môže mať - alergické reakcie (svrbenie, kožná vyrážka, žihľavka, akné)",
+                Davkovanie_Symptom = "Dávkovanie majú všetci rovnaké.                                          Denná dávka 300 µg, \ntehotné ženy by sa mali poradiť s lekárom."
+
             });
             Symps.Add(new Symp
             {
@@ -207,13 +227,23 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Problém s chôdzov",
-                Popis_Symptom = "B12 pomôže"
+                ImageUrl_Symptom = "vitamin_B12",
+                Popis_Symptom = "Nedostatok vytamínu B6 môže spôsobiť: \nbolesť nôh a ramien, \nmravčenie v končatinách, \nproblém s chôdzou, \nspomalené reflexy, \ndýchavičnosť. \n\nVitamín B12 je dôležitý predovšetkým pre správnu funkciu krvotvorby, podieľa sa na syntéze DNA a ATP a je nevyhnutný pre správnu funkciu nervového systému.",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú živočíšne produkty: vajcia, mlieko, syry, mäso a vnútornosti.",
+                Upozornenia_Symptom = "1 z 1000 ľudí môže mať - alergické reakcie (svrbenie, kožná vyrážka, žihľavka, akné)",
+                Davkovanie_Symptom = "Dávkovanie majú všetci rovnaké.                                          Denná dávka 300 µg, \ntehotné ženy by sa mali poradiť s lekárom."
+
             });
 
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Spomalené reflexy",
-                Popis_Symptom = "B12 pomôže"
+                ImageUrl_Symptom = "vitamin_B12",
+                Popis_Symptom = "Nedostatok vytamínu B6 môže spôsobiť: \nbolesť nôh a ramien, \nmravčenie v končatinách, \nproblém s chôdzou, \nspomalené reflexy, \ndýchavičnosť. \n\nVitamín B12 je dôležitý predovšetkým pre správnu funkciu krvotvorby, podieľa sa na syntéze DNA a ATP a je nevyhnutný pre správnu funkciu nervového systému.",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú živočíšne produkty: vajcia, mlieko, syry, mäso a vnútornosti.",
+                Upozornenia_Symptom = "1 z 1000 ľudí môže mať - alergické reakcie (svrbenie, kožná vyrážka, žihľavka, akné)",
+                Davkovanie_Symptom = "Dávkovanie majú všetci rovnaké.                                          Denná dávka 300 µg, \ntehotné ženy by sa mali poradiť s lekárom."
+
             });
 
             Symps.Add(new Symp
@@ -229,7 +259,12 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Suchá pleť",
-                Popis_Symptom = "F pomôže"
+                ImageUrl_Symptom = "vitamin_F",
+                Popis_Symptom = "Nedostatok Vitamínu F môže spôsobiť: \nlámanie nechtov, \nlupiny, \nsuchá pleť, \nbolesti hlavy, \nzníženie krvného tlaku, \nporuchy metabolizmu, \nkožné problémy. \n\nVitamín F je v skutočnosti spoločné pomenovanie pre zmesku niekoľkých mastných kyselín ako OMEGA-3 a OMEGA-6 mastné kyseliny. Vitamín F je pre život nevyhnutný.  Telo si ho nevie samé vytvoriť, organizmu musí byť preto dodávaný potravou",
+                Vyskyt_Strave_Symptom = "Hlavným zdrojom tohto vitamínu v potrave sú: rastlinný olej, morské živočíchy (langusta, homár), ryby (losos, sleď), vlašské orechy, semienka (slnečnica, tekvica, ľan), sója, mandle, obilné klíčky, avokádo, olej z ľanových semienok.",
+                Upozornenia_Symptom = "Prejavy predávkovania Vitamínu F:               priberanie na váhe, \nkožné ekzémy, \nakné.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka 6-8 mg.                                       "
+
             });
 
             Symps.Add(new Symp

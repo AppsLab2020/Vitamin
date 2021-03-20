@@ -35,7 +35,7 @@
                        Grid.Column="1" 
                        Text="{Binding Upozornenia}"
                        FontAttributes="Italic" 
-                       VerticalOptions="End" />
+                        HorizontalOptions="Start" />
             </Grid>
         </DataTemplate>
 
