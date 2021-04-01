@@ -123,9 +123,6 @@
     <AndroidResource Include="Resources\drawable\vitamin_A.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\vitamin_B.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\vitamin_C.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -144,7 +141,13 @@
     <AndroidResource Include="Resources\drawable\kaci_mozno_pouzit.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\vitamin_B12.jpg" />
+    <AndroidResource Include="Resources\drawable\vitamin_H.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vitamin_K.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vitamin_draslik.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

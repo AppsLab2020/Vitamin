@@ -87,33 +87,33 @@ namespace Lekarnik.Data
             Zoznams.Add(new Vita
             {
                 Nazov = "Vitamín H",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_H",
+                Popis = "Nedostatok bitamínu H môže spôsobiť: \nbolesť svalov, \ndepresie, \nnaspavosť, \nvypadáavanie vlasov, \nmravčenie končatín. \n\nVitamín H(Biotín) zasahuje do metabolizmu cukrov, tukov i aminokyselín. Je dôležitý pre vznik energie v tele a spracovanie odpadových látok. Hrá úlohu aj v prenose oxidu uhličitého a pre udržanie stálej hladiny krvného cukru.",
+                Vyskyt_Strave = "K najbohatším a najčastejším zdrojom, v ktorých biotín prijímame, patria: žĺtky, hovädzie mäso, sója, orechy, obilniny, mlieko, kvasnice, pečeň a obličky.",
+                Upozornenia = "Predávkovanie biotínom je tiež pomerne ojedinelé, ide o vo vode rozpustný vitamín a jeho nadbytok je vylúčený močom. Predavkovanie však môže spôsobiť nevoľnosť, bolesti hlavy a brucha",
+                Davkovanie = "Odporúčaná denná dávka:                                            0-6 mesiacov - 5 µg, \n7 - 12 mesiacov - 6 µg, \n1 - 3 rokov - 8 µg, \n4 - 8 rokov - 12 µg, \n9 - 14 rokov - 20 µg, \n15 - 18 rokov - 25 µg, \nženy - 30 µg, \nmuži - 30 µg, \nženy tehotné - 30 µg, \nženy kojacie - 35 µg."
             });
            
             Zoznams.Add(new Vita
           
             {
                 Nazov = "Vitamín K",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_K",
+                Popis = "Príznaky nedostatku vitaminu K: \nvápenatenie tepien, \nmozgové problémy, \nosteoporóza, \nzubné kazy, \ninfekčné choroby, napr. zápal pľúc, \nkrvácanie z nosa, ďasien, \nľahká tvorba modrín, \nznížená imunita, \nznížená zrážanlivosť krvi, \nlámavosť kostí. \n\nĽudské telo dokáže premeniť vitamín K1 na K2, čo je veľmi dôležité, pretože K1 je výrazne viac obsiahnutý v strave.",
+                Vyskyt_Strave = "Vitamíny K1 a K2 obsahuje: listová a koreňová zelenina, brokolica a karfiol, paradajky, papriky, uhorky, obilniny - ovos, raž, pšenica, sója, strukoviny – fazuľa, hrach, šošovica, zelený čaj, žihľava, vajcia a mäso, orechy, sójový a olivový olej, tvrdé a mäkké syry, surové maslo, kefír, kyslá kapusta.",
+                Upozornenia = "Pri vitamíne K nie sú nejaké vedľajšie účinky. Pri predávkovaní škodí len ľuďom, ktorí majú problém so zrážanlivosťou krvi. Vtedy to môže vitamín K zhoršiť.",
+                Davkovanie = "Odporúčaná denná dávka:                                          Dojčatá 0-6 mesiacov – 2 µg, \nDojčatá 6-12 mesiacov - 2,5 µg, \nDeti vo veku 1-3 roky – 30 µg, \nDeti vo veku 4-8 rokov – 55 µg, \nDeti vo veku 9-13 rokov – 60 µg, \nDospievajúci vo veku 14-18 rokov – 75 µg, \nMuži nad 19 rokov – 120 µg, \nŽeny nad 19 rokov – 90 µg, \nTehotné a dojčiace ženy – 90 µg."
             });
             
             Zoznams.Add(new Vita
 
             {
                 Nazov = "Draslík",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_draslik",
+                Popis = "Nedostatok dralíku môže spôsobiť: \npleť plnú akné, \nzápchu, \nnervozitu, \núnavu, \nnespalosť a nekvalitný spánok, \nnesústredenosť a zlú pamäť, \nsvalové kŕče alebo slabosť, \nzvýšenie rizika cukrovky a inzulínovej rezistencie, \nrednutie kostí a bolesť kĺbov, \nzvýšený krvný tlak, \nnesprávnu hladinu pH v tele, \nzvýšené riziko vzniku obličkových kameňov, \nzvýšené riziko srdcových ochorení a mŕtvice. \n\nDraslík je dôležitý pre správne fungovanie nervovej sústavy, svalov a udržanie normálneho tlaku krvi.",
+                Vyskyt_Strave = "Potraviny v ktorých sa nachádza draslík: banány, zemiaky, sušené marhule, pomarančový džús, chudé mäso, mlieko, strukoviny, kokosová voda, ale aj čierny čaj alebo káva.",
+                Upozornenia = "Príznakmi predávkovania draslíkom sú:                     slabosť, \npocit ťažoby vo svaloch, \narytmia srdca až kolaps.",
+                Davkovanie = "Odporúčaná denná dávka:                                             deti do 1 roku - 300 až 1000 mg, \ndeti 1 - 18 rokov - 1000 až 3000 mg, \nmuži a ženy nad 18 rokov 3000 až 4000 mg."
             });
            
             Zoznams.Add(new Vita

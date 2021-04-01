@@ -11821,25 +11821,28 @@ namespace Lekarnik.Droid
 			public const int vitamin_A = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int vitamin_B = 2131165338;
+			public const int vitamin_B2 = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int vitamin_B12 = 2131165339;
+			public const int vitamin_B6 = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int vitamin_B2 = 2131165340;
+			public const int vitamin_C = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int vitamin_B6 = 2131165341;
+			public const int vitamin_draslik = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int vitamin_C = 2131165342;
+			public const int vitamin_F = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int vitamin_F = 2131165343;
+			public const int vitamin_H = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int xamarin_logo = 2131165344;
+			public const int vitamin_K = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int xamarin_logo = 2131165345;
 			
 			static Drawable()
 			{
