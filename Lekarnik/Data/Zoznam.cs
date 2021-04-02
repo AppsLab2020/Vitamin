@@ -131,33 +131,33 @@ namespace Lekarnik.Data
 
             {
                 Nazov = "Vápnik",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_Vapnik",
+                Popis = "Príznaky ktoré symbolizuju nedostatok vápnika: \nosteoporóza, \nzvýšená hladina cholesterolu, \nzubný kaz, \nzápalové ochorenia, \nsvalové kŕče, \nnervozita, \nduševné ťažkosti, \nzvýšená lámavosť nechtov a \nsuchá pokožka. \n\nVápnik je prvok z radu tzv. kovov alkalických zemín. V našom tele sa vyskytuje vo veľkom množstve, každý ho máme približne kilogram. A je veľmi dôležitý, predovšetkým preto, že tvorí základ kostí a zubov. V kostiach máme až 99% z celkového množstva vápnika v našom tele. Mimo to sa ale podieľa na srdcovej činnosti, regulácii nervosvalovej činnosti.",
+                Vyskyt_Strave = "Vápnik sa najviac vyskytuje v týchto potravinách: v maku, v mlieku, v syroch, brokolici, vo vajciach, orechoch a rôznych semienkach, ale aj vo vode (v prípade tzv. tvrdej vody) alebo zelenom čaji.",
+                Upozornenia = "Predávkovanie vápnikom sa môže preukázať: Nevoľnosťou - vracaním, kovovou pachuťou v ústach, bledosťou. Bolesťami hlavy a poruchami vedomia, bolesťou a slabosťou končatín. Ale aj postihnutím obličiek, poruchami vedomia a v extrémnom prípade zástavou srdca.",
+                Davkovanie = "Odporúčaná denná dávka: \nDojčatá 0-6 mesiacov – 300 mg, \nDojčatá 7-12 mesiacov – 400 mg, \nDeti 1-3 rokov – 600 mg, \nDeti 4-6 rokov – 700 mg, \nDeti 7-10 rokov – 900 mg, \nChlapci 11 -  14 rokov – 1200 mg, \nDievčatá 11 -  14 rokov – 1300 mg, \nChlapci 15 -  18 rokov – 1400 mg, \nDievčatá 15 -  18 rokov – 1300 mg, \nMuži – 1200 mg, \nŽeny  - 1100 mg, \nTehotné ženy – 1400 mg, \nDojčiace ženy - 1600 mg."
             });
             
             Zoznams.Add(new Vita
 
             {
                 Nazov = "Zinok",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_Zinok",
+                Popis = "Prejavi nedostatku zinku: \nzvýšená náchylnosť na infekcie (oslabená imunita), \nzhoršené hojenie rán, \nvypadávanie vlasov, \nporuchy videnia (šeroslepota), \nneprestávajúca hnačka, \npsychická nerovnováha (depresívna nálada), \nporuchy vnímania chuti. \n\nZinok je dôležitým stopovým prvkom, ktorý sa podieľa na metabolizme makroživín, sacharidov, bielkovín, mastných kyselín a nachádza sa takmer vo všetkých orgánoch. Zinok je kľúčový prvok pre viac ako 300 biochemických reakcií v našom tele vrátane nervových funkcií a dôležitú úlohu hrá tiež v raste a delení buniek či pri syntéze DNA.",
+                Vyskyt_Strave = "Zinok sa nachádza v týchto potravinách:(mäso, pečeň, vajcia), celozrnných obilninách, strukovinách, koreňovej zelenine alebo v droždí či tekvicových semienkach",
+                Upozornenia = "Predávkovanie zinkom prijímaným z bežnej stravy je takmer nemožné, pretože ho naše telo pomerne dosť samo vylúči. V takom prípade dochádza k narušeniu metabolizmu medi - to môže viesť k príznakom vzniku anémie.",
+                Davkovanie = "Odporúčaná denná dávka: \nDojčatá 0-6 mesiacov – 2 mg, \nDojčatá 7-12 mesiacov – 3 mg, \nDeti 1-3 rokov – 4 mg, \nDeti 4-6 rokov – 5 mg, \nDeti 7-10 rokov – 7 mg, \nChlapci 11 - 14 rokov – 10 mg, \nDievčatá 11 -  14 rokov – 10 mg, \nChlapci 15 - 18 rokov – 12 mg, \nDievčatá 15 - 18 rokov – 9 mg, \nMuži – 14 mg, \nŽeny  - 10 mg, \nTehotné ženy – 11 mg, \nDojčiace ženy - 12 mg."
             });
 
             Zoznams.Add(new Vita
 
             {
                 Nazov = "Železo",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_Zelezo",
+                Popis = "Nedostatok železa sa prejavuje: \nchudokrvnosť, \nbiela a nezdravá farba kože, \nlámanie nechtov, \nochorenie kože a slizníc, \núnava, \nporuchy rastu. \n\nŽelezo patrí medzi tzv. stopové prvky. Stopové preto, že náš organizmus ich potrebuje v pomerne malom množstve. Potrebujeme ho predovšetkým pre transport kyslíka po tele.",
+                Vyskyt_Strave = "Železo sa nachádza v týchto potravinách: morské plody, špenát, pečeň a iné vnútorné orgány, strukoviny, červené mäso, tekvicové semiačka, quinoa, morčacie mäso, brokolica, tofu, horká čokoláda, ryby.",
+                Upozornenia = "Nadbytok železa sa prejavuje: hnačkou, zvracaním, krvou v stolici.",
+                Davkovanie = "Odporúčaná denná dávka: \nDojčatá 0-6 mesiacov – 7 mg, \nDojčatá 7-12 mesiacov – 10 mg, \nDeti 1-3 rokov – 8 mg, \nDeti 4-6 rokov – 9 mg, \nDeti 7-10 rokov – 10 mg, \nChlapci 11 - 14 rokov – 12 mg, \nDievčatá 11 -  14 rokov – 16 mg, \nChlapci 15 - 18 rokov – 12 mg, \nDievčatá 15 - 18 rokov – 15 mg, \nMuži – 11 mg, \nŽeny  - 17 mg, \nTehotné ženy – 30 mg, \nDojčiace ženy - 22 mg"
             });
         }
     }
