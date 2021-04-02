@@ -174,9 +174,13 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Nervozita",
-                Popis_Symptom = "Horčík pomôže"
+                ImageUrl_Symptom = "vitamin_draslik",
+                Popis_Symptom = "Nedostatok dralíku môže spôsobiť: \npleť plnú akné, \nzápchu, \nnervozitu, \núnavu, \nnespalosť a nekvalitný spánok, \nnesústredenosť a zlú pamäť, \nsvalové kŕče alebo slabosť, \nzvýšenie rizika cukrovky a inzulínovej rezistencie, \nrednutie kostí a bolesť kĺbov, \nzvýšený krvný tlak, \nnesprávnu hladinu pH v tele, \nzvýšené riziko vzniku obličkových kameňov, \nzvýšené riziko srdcových ochorení a mŕtvice. \n\nDraslík je dôležitý pre správne fungovanie nervovej sústavy, svalov a udržanie normálneho tlaku krvi.",
+                Vyskyt_Strave_Symptom = "Potraviny v ktorých sa nachádza draslík: banány, zemiaky, sušené marhule, pomarančový džús, chudé mäso, mlieko, strukoviny, kokosová voda, ale aj čierny čaj alebo káva.",
+                Upozornenia_Symptom = "Príznakmi predávkovania draslíkom sú:                     slabosť, \npocit ťažoby vo svaloch, \narytmia srdca až kolaps.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                             deti do 1 roku - 300 až 1000 mg, \ndeti 1 - 18 rokov - 1000 až 3000 mg, \nmuži a ženy nad 18 rokov 3000 až 4000 mg."
             });
-            
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Nespavosť",
@@ -202,11 +206,17 @@ namespace Lekarnik.Data
                 Upozornenia_Symptom = "Nehrozí predávkovanie. Nadbytok je vylučovaný sám z tela.",
                 Davkovanie_Symptom = "Odporúčaná dennándávka Vitamínu B2 je:              deti 1-3 rokov - 0,5 mg, \ndeti 4-6 rokov - 1,1 mg, \ndeti 7-10 rokov - 1,2 mg, \nchlapci 11-18 rokov - 1,5 mg, \nmuži 18 a starší - 1,8 mg, \ndievčatá 11-18 rokov - 1,2 mg, \nženy 18 a staršie - 1,3 mg, \ntehotné ženy - 1,6 mg. "
             });
+           
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Pleť plná akné",
-                Popis_Symptom = "Horčík pomôže"
+                ImageUrl_Symptom = "vitamin_draslik",
+                Popis_Symptom = "Nedostatok dralíku môže spôsobiť: \npleť plnú akné, \nzápchu, \nnervozitu, \núnavu, \nnespalosť a nekvalitný spánok, \nnesústredenosť a zlú pamäť, \nsvalové kŕče alebo slabosť, \nzvýšenie rizika cukrovky a inzulínovej rezistencie, \nrednutie kostí a bolesť kĺbov, \nzvýšený krvný tlak, \nnesprávnu hladinu pH v tele, \nzvýšené riziko vzniku obličkových kameňov, \nzvýšené riziko srdcových ochorení a mŕtvice. \n\nDraslík je dôležitý pre správne fungovanie nervovej sústavy, svalov a udržanie normálneho tlaku krvi.",
+                Vyskyt_Strave_Symptom = "Potraviny v ktorých sa nachádza draslík: banány, zemiaky, sušené marhule, pomarančový džús, chudé mäso, mlieko, strukoviny, kokosová voda, ale aj čierny čaj alebo káva.",
+                Upozornenia_Symptom = "Príznakmi predávkovania draslíkom sú:                     slabosť, \npocit ťažoby vo svaloch, \narytmia srdca až kolaps.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                             deti do 1 roku - 300 až 1000 mg, \ndeti 1 - 18 rokov - 1000 až 3000 mg, \nmuži a ženy nad 18 rokov 3000 až 4000 mg."
             });
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Pľuzgiere a kútiky",
@@ -306,9 +316,13 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zápcha",
-                Popis_Symptom = "Horčík pomôže"
+                ImageUrl_Symptom = "vitamin_draslik",
+                Popis_Symptom = "Nedostatok dralíku môže spôsobiť: \npleť plnú akné, \nzápchu, \nnervozitu, \núnavu, \nnespalosť a nekvalitný spánok, \nnesústredenosť a zlú pamäť, \nsvalové kŕče alebo slabosť, \nzvýšenie rizika cukrovky a inzulínovej rezistencie, \nrednutie kostí a bolesť kĺbov, \nzvýšený krvný tlak, \nnesprávnu hladinu pH v tele, \nzvýšené riziko vzniku obličkových kameňov, \nzvýšené riziko srdcových ochorení a mŕtvice. \n\nDraslík je dôležitý pre správne fungovanie nervovej sústavy, svalov a udržanie normálneho tlaku krvi.",
+                Vyskyt_Strave_Symptom = "Potraviny v ktorých sa nachádza draslík: banány, zemiaky, sušené marhule, pomarančový džús, chudé mäso, mlieko, strukoviny, kokosová voda, ale aj čierny čaj alebo káva.",
+                Upozornenia_Symptom = "Príznakmi predávkovania draslíkom sú:                     slabosť, \npocit ťažoby vo svaloch, \narytmia srdca až kolaps.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                             deti do 1 roku - 300 až 1000 mg, \ndeti 1 - 18 rokov - 1000 až 3000 mg, \nmuži a ženy nad 18 rokov 3000 až 4000 mg."
             });
-            
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zhoršené videnie",
@@ -322,7 +336,7 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Zlá nálada",
-                Popis_Symptom = "Zinok pomôže"
+                Popis_Symptom = "Horčík pomôže"
             });
 
             Symps.Add(new Symp

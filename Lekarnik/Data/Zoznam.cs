@@ -120,11 +120,11 @@ namespace Lekarnik.Data
 
             {
                 Nazov = "Horčík",
-                ImageUrl = "",
-                Popis = "Dobry vitamin",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = ""
+                ImageUrl = "vitamin_Horcik",
+                Popis = "Príznaky nedostatku horčíka: \nzlá nálada, \núnava, \nstrata chuti do jedla, \nnevoľnosť, \nsvalové kŕče, \ntŕpnutie končatín, \nsvalové kontrakcie.\n\nHorčík (magnézium) je jeden z hlavných minerálov nevyhnutných pre fungovanie nášho tela. Horčík sa v organizme nachádza v kostiach (až približne 70 % z jeho celkového množstva), v svaloch (27 %), mäkkých tkanivách a v telových tekutinách (vrátane krvi).\n\nMedzi funkcie horčíka v tele patrí: \nTvorba energie – pomáha konvertovať prijatú potravu na energiu, \nTvorba proteínov – pomáha vytvárať nové proteíny z prijatých aminokyselín, \nÚdržba génov – pomáha vytvoriť a opraviť DNA a RNA, \nPohyb svalstva – zúčastňuje sa kontrakcie a relaxácie svalov, \nRegulácia nervového systému – pomáha regulovať tzv. neurotransmitery, teda látky, ktoré posielajú správy prostredníctvom mozgu a nervového systému.",
+                Vyskyt_Strave = "Potraviny bohaté na horčík: strukoviny – fazuľa, hrach, sója, zelenina - listová zelenina, brokolica, tekvica..., ovocie – banány, marhule, ananás, jablká...., semienka a orechy – najmä mandle, mliečne výrobky – jogurt, maslo, syr...., mäso, čokoláda, káva, minerálne vody – najmä tie s vysokým obsahom minerálnych látok.",
+                Upozornenia = "Predávkovanie sa horčíkom je viac-menej nemožné. Telo si reguluje jeho hladinu podľa potrieb a jeho nabytok vylúči močom, stolicou alebo potom. Nadbytok horčíka teda môže spôsobiť v takom prípade hnačku.",
+                Davkovanie = "Odporúčaná denná dávka: \nDojčatá 0-6 mesiacov – 30 mg, \nDojčatá 7-12 mesiacov – 60 mg, \nDeti 1-3 rokov – 80 mg, \nDeti 4-6 rokov – 120 mg, \nDeti 7-10 rokov – 200 mg, \nChlapci 11 -  14 rokov – 300 mg, \nDievčatá 11 -  14 rokov – 330 mg, \nChlapci 15 -  18 rokov – 400 mg, \nDievčatá 15 -  18 rokov – 350 mg, \nMuži – 400 mg, \nŽeny  - 320 mg, \nTehotné ženy – 350 mg, \nDojčiace ženy - 330 mg."
             });
             
             Zoznams.Add(new Vita
