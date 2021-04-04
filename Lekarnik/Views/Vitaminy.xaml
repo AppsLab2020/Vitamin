@@ -56,6 +56,10 @@
                        FontAttributes="Bold"
                        TextType="Text"
                        FontSize="Medium" Padding="0,0,0,0"/>
+                    <Image Source="{Binding ImageUrl2}" 
+                   HeightRequest="50" 
+                   WidthRequest="50" 
+                   HorizontalOptions="CenterAndExpand" />
                     
                 </Grid>
             </DataTemplate>

@@ -56,7 +56,7 @@
                        FontAttributes="Bold"
                        TextType="Text"
                        FontSize="Medium" Padding="0,0,0,0"/>
-
+                    
 
                 </Grid>
             </DataTemplate>
