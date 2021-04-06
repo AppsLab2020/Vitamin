@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Drawing;
+using Xamarin.Essentials;
 
 namespace Lekarnik.Droid
 {
@@ -29,5 +31,7 @@ namespace Lekarnik.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+      
+
     }
 }

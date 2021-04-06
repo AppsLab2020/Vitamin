@@ -96,5 +96,7 @@ namespace Lekarnik
                 emailMessenger.SendEmail("skuska@gmail.com", "Chyba aplikacie/navrh na vylepsenie", "");
             }
         }
+
+
     }
 }

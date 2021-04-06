@@ -3,7 +3,9 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        x:Class="Lekarnik.AppShell"
        xmlns:views="clr-namespace:Lekarnik.Views"
-       x:Name="shell">
+       x:Name="shell"
+       BackgroundColor="Red"
+       >
 
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
@@ -14,7 +16,9 @@
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
     </FlyoutItem>
-    <MenuItem Text="Spätná väzba"
+
+    
+            <MenuItem Text="Spätná väzba"
               Clicked="EmailClick_Clicked"
               IconImageSource="feedback.png"/>
     <Shell.FlyoutHeaderTemplate>
@@ -27,4 +31,12 @@
             </Grid>            
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
+    <Shell.Resources>
+        <Style 
+               TargetType="Element"
+                     >
+            <Setter Property="Shell.BackgroundColor"
+                    Value="#689F39" />
+        </Style>
+    </Shell.Resources>
 </Shell>
