@@ -73,18 +73,18 @@ namespace Lekarnik.Data
                 Popis = "Nedostatok vitamínu C môže spôsobiť:  krvácanie z nosa alebo z ďasien, časté modriny, pomalé hojenie rán, bolesť kĺbov, anémia, suché vlasy a suchá pokožka, únava, náchylnosť na infekcie, znížená imunita. \n\nVitamín C (kyselina askorbová) je jedným z najdôležitejších vitamínov v našom tele. Má antioxidačné účinky, podieľa sa na tvorbe hormónov, znižuje hladinu cholesterolu, je nevyhnutný pre svaly, kosti, cievy i kožu.",
                 Vyskyt_Strave = "Vitamín C sa nachádza v čerstvom ovocí a zelenine, hlavne v: brokolici, rakytníku, červenej paprike, černiciach.",
                 Upozornenia = "Prejavy predávkovania vitamínu C:                      alergické reakcie, \nnevoľnosť, \nzažívacie ťažkosti.",
-                Davkovanie = "Odporúčaná denná dávka Vitaminu C je:              adeti 0-3 rokov - 50 mg, \nadeti 0-6 rokov - 60 mg, \nadeti 7-10 rokov - 65 mg, \nachlapci 11-18 rokov - 80 mg, \namuži 18 a starší - 100 mg, \nadievčatá 11-18 rokov - 70 mg, \naženy 18 a staršie - 90 mg, \nagravidné ženy - 95 mg, \nadojčiace ženy - 130 mg. ",
+                Davkovanie = "Odporúčaná denná dávka Vitaminu C je:               deti 0-3 rokov - 50 mg, \nadeti 0-6 rokov - 60 mg, \nadeti 7-10 rokov - 65 mg, \nachlapci 11-18 rokov - 80 mg, \namuži 18 a starší - 100 mg, \nadievčatá 11-18 rokov - 70 mg, \naženy 18 a staršie - 90 mg, \nagravidné ženy - 95 mg, \nadojčiace ženy - 130 mg. ",
                 ImageUrl2 = "C"
             });
 
             Zoznams.Add(new Vita
             {
                 Nazov = "Vitamín D",
-                ImageUrl = "",
-                Popis = "",
-                Vyskyt_Strave = "",
-                Upozornenia = "",
-                Davkovanie = "",
+                ImageUrl = "vitamin_D",
+                Popis = "Nedostatok vitamínu D sa môže prejaviť: \nporuchami rastu, \nsvalovou hypotenziou, \nzlým imunitným systémom,\n deformaciu kosti, \ncukrovku. \n\nVitamín D je pre naše telo veľmi dôležitý. Ovplyvňuje látkovú výmenu vápnika, je dôležitý pre zdravé kosti a zuby, pomáha udržiavať zdravé svaly, ovplyvňuje ale aj ďalšie časti nášho tela ako je srdce, mozog, imunitný systém. ",
+                Vyskyt_Strave = "Vytamín D získavame: zo slnečného žiarenia, nájdete v tučných rybách ako je makrela, sleď, losos alebo tuniak. Na vitamín D sú bohaté aj niektoré jedlé huby (šampiňóny, líšky), ale aj žĺtok alebo pečeň.",
+                Upozornenia = "Predavkovanie vplyvom slnečného žiarenia a stravy nehrozí. Predávkovať sa dá však doplnkami. Dôsledkom môžu byť obličkové kamene alebo tzv. kalcifikácia obličiek",
+                Davkovanie = "Odporúčaná denná dávka:                                                          Dojčatá 0-6 mesiacov – 10 µg, \nDojčatá 7-12 mesiacov – 10 µg, \nDeti 1-3 rokov – 12 µg, \nDeti 4-6 rokov – 12 µg, \nDeti 7-10 rokov – 12 µg, \nChlapci 11 -  14 rokov – 15 µg, \nDievčatá 11 -  14 rokov – 15 µg, \nChlapci 15 -  18 rokov – 15 µg, \nDievčatá 15 -  18 rokov – 15 µg, \nMuži – 15 µg, \nŽeny  - 15 µg, \nTehotné ženy – 17 µg, \nDojčiace ženy - 17 µg.",
                 ImageUrl2 = "D"
             });
 
