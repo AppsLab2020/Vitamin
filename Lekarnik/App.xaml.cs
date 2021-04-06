@@ -10,7 +10,7 @@ namespace Lekarnik
         public App()
         {
             InitializeComponent();
-
+            Device.SetFlags(new []{"Brush_Experimental"});
             MainPage = new AppShell();
         }
 

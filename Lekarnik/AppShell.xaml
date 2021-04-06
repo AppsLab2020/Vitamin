@@ -4,15 +4,14 @@
        x:Class="Lekarnik.AppShell"
        xmlns:views="clr-namespace:Lekarnik.Views"
        x:Name="shell"
-       BackgroundColor="Red"
-       >
+       BackgroundColor="Red">
 
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Priznaky" Icon="ill.png">
             <ShellContent ContentTemplate="{DataTemplate views:Priznaky}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
-        <Tab Title="Vitaminy" Icon="vitamin.png" >
+        <Tab Title="Vitaminy" Icon="vitamin.png">
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
     </FlyoutItem>
