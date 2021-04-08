@@ -162,37 +162,37 @@
     <AndroidResource Include="Resources\drawable\vitamin_Zelezo.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\vitamin_D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\A.png" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\drawable\B1.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\B2.jpg" />
+    <AndroidResource Include="Resources\drawable\B2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\B12.jpg" />
+    <AndroidResource Include="Resources\drawable\B6.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\A.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\B6.jpg" />
+    <AndroidResource Include="Resources\drawable\B12.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\C.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\F.jpg" />
+    <AndroidResource Include="Resources\drawable\D.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\H.jpg" />
+    <AndroidResource Include="Resources\drawable\F.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\K.jpg" />
+    <AndroidResource Include="Resources\drawable\H.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\D.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\vitamin_D.jpg" />
+    <AndroidResource Include="Resources\drawable\K.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
