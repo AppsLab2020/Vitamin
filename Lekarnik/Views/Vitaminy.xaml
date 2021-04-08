@@ -5,8 +5,7 @@
              xmlns:data="clr-namespace:Lekarnik.Data"
              xmlns:views="clr-namespace:Lekarnik.Views"
              x:Class="Lekarnik.Views.Vitaminy"
-             Title="Vitaminy"
-             >
+             Title="Vitaminy">
 
  
     <Grid>

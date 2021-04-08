@@ -7,6 +7,45 @@
              x:Class="Lekarnik.Views.Priznaky"
              Title="Príznaky">
     
+    <Grid>
+        <BoxView>
+            <BoxView.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="Red" Offset="0.1"></GradientStop>
+                    <GradientStop Color="Purple" Offset="0.3"></GradientStop>
+                    <GradientStop Color="MediumPurple" Offset="0.6"></GradientStop>
+                    <GradientStop Color="White" Offset="1.0"></GradientStop>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+        <CollectionView ItemsSource="{x:Static data:Symptom.Symps}"
+                        SelectionMode="Single"
+                        SelectionChanged="OnCollectionViewSelectionChanged1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="1"
+                               Text="{Binding Nazov_Symptom}"
+                               TextColor="Black" 
+                               FontAttributes="Bold"
+                               TextType="Text"
+                               FontSize="Medium" Padding="0,0,0,0"/>
+                    
+
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </Grid>
+    
     <ContentPage.Resources>
         <Style TargetType="Grid">
             <Setter Property="VisualStateManager.VisualStateGroups">
@@ -36,30 +75,5 @@
                                           SelectedItemNavigationTarget1="{x:Type views:PriznakyDetailed}" />
     </Shell.SearchHandler>
 
-    <CollectionView ItemsSource="{x:Static data:Symptom.Symps}"
-                    SelectionMode="Single"
-                    SelectionChanged="OnCollectionViewSelectionChanged1">
-        <CollectionView.ItemTemplate>
-            <DataTemplate>
-                <Grid Padding="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <Label Grid.Column="1"
-                       Text="{Binding Nazov_Symptom}"
-                       TextColor="Black" 
-                       FontAttributes="Bold"
-                       TextType="Text"
-                       FontSize="Medium" Padding="0,0,0,0"/>
-                    
-
-                </Grid>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView> 
+ 
 </ContentPage>
