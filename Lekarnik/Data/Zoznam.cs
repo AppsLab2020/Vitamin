@@ -132,7 +132,7 @@ namespace Lekarnik.Data
                 Vyskyt_Strave = "Potraviny v ktorých sa nachádza draslík: banány, zemiaky, sušené marhule, pomarančový džús, chudé mäso, mlieko, strukoviny, kokosová voda, ale aj čierny čaj alebo káva.",
                 Upozornenia = "Príznakmi predávkovania draslíkom sú:                     slabosť, \npocit ťažoby vo svaloch, \narytmia srdca až kolaps.",
                 Davkovanie = "Odporúčaná denná dávka:                                             deti do 1 roku - 300 až 1000 mg, \ndeti 1 - 18 rokov - 1000 až 3000 mg, \nmuži a ženy nad 18 rokov 3000 až 4000 mg.",
-                ImageUrl2 = ""
+                ImageUrl2 = "Ka"
             });
            
             Zoznams.Add(new Vita
@@ -144,7 +144,7 @@ namespace Lekarnik.Data
                 Vyskyt_Strave = "Potraviny bohaté na horčík: strukoviny – fazuľa, hrach, sója, zelenina - listová zelenina, brokolica, tekvica..., ovocie – banány, marhule, ananás, jablká...., semienka a orechy – najmä mandle, mliečne výrobky – jogurt, maslo, syr...., mäso, čokoláda, káva, minerálne vody – najmä tie s vysokým obsahom minerálnych látok.",
                 Upozornenia = "Predávkovanie sa horčíkom je viac-menej nemožné. Telo si reguluje jeho hladinu podľa potrieb a jeho nabytok vylúči močom, stolicou alebo potom. Nadbytok horčíka teda môže spôsobiť v takom prípade hnačku.",
                 Davkovanie = "Odporúčaná denná dávka:                                                          Dojčatá 0-6 mesiacov – 30 mg, \nDojčatá 7-12 mesiacov – 60 mg, \nDeti 1-3 rokov – 80 mg, \nDeti 4-6 rokov – 120 mg, \nDeti 7-10 rokov – 200 mg, \nChlapci 11 -  14 rokov – 300 mg, \nDievčatá 11 -  14 rokov – 330 mg, \nChlapci 15 -  18 rokov – 400 mg, \nDievčatá 15 -  18 rokov – 350 mg, \nMuži – 400 mg, \nŽeny  - 320 mg, \nTehotné ženy – 350 mg, \nDojčiace ženy - 330 mg.",
-                ImageUrl2 = ""
+                ImageUrl2 = "Mg"
             });
             
             Zoznams.Add(new Vita
@@ -156,7 +156,7 @@ namespace Lekarnik.Data
                 Vyskyt_Strave = "Vápnik sa najviac vyskytuje v týchto potravinách: v maku, v mlieku, v syroch, brokolici, vo vajciach, orechoch a rôznych semienkach, ale aj vo vode (v prípade tzv. tvrdej vody) alebo zelenom čaji.",
                 Upozornenia = "Predávkovanie vápnikom sa môže preukázať: Nevoľnosťou - vracaním, kovovou pachuťou v ústach, bledosťou. Bolesťami hlavy a poruchami vedomia, bolesťou a slabosťou končatín. Ale aj postihnutím obličiek, poruchami vedomia a v extrémnom prípade zástavou srdca.",
                 Davkovanie = "Odporúčaná denná dávka:                                                          Dojčatá 0-6 mesiacov – 300 mg, \nDojčatá 7-12 mesiacov – 400 mg, \nDeti 1-3 rokov – 600 mg, \nDeti 4-6 rokov – 700 mg, \nDeti 7-10 rokov – 900 mg, \nChlapci 11 -  14 rokov – 1200 mg, \nDievčatá 11 -  14 rokov – 1300 mg, \nChlapci 15 -  18 rokov – 1400 mg, \nDievčatá 15 -  18 rokov – 1300 mg, \nMuži – 1200 mg, \nŽeny  - 1100 mg, \nTehotné ženy – 1400 mg, \nDojčiace ženy - 1600 mg.",
-                ImageUrl2 = ""
+                ImageUrl2 = "Ca"
             });
             
             Zoznams.Add(new Vita
@@ -168,7 +168,7 @@ namespace Lekarnik.Data
                 Vyskyt_Strave = "Zinok sa nachádza v týchto potravinách:(mäso, pečeň, vajcia), celozrnných obilninách, strukovinách, koreňovej zelenine alebo v droždí či tekvicových semienkach",
                 Upozornenia = "Predávkovanie zinkom prijímaným z bežnej stravy je takmer nemožné, pretože ho naše telo pomerne dosť samo vylúči. V takom prípade dochádza k narušeniu metabolizmu medi - to môže viesť k príznakom vzniku anémie.",
                 Davkovanie = "Odporúčaná denná dávka:                                                          Dojčatá 0-6 mesiacov – 2 mg, \nDojčatá 7-12 mesiacov – 3 mg, \nDeti 1-3 rokov – 4 mg, \nDeti 4-6 rokov – 5 mg, \nDeti 7-10 rokov – 7 mg, \nChlapci 11 - 14 rokov – 10 mg, \nDievčatá 11 -  14 rokov – 10 mg, \nChlapci 15 - 18 rokov – 12 mg, \nDievčatá 15 - 18 rokov – 9 mg, \nMuži – 14 mg, \nŽeny  - 10 mg, \nTehotné ženy – 11 mg, \nDojčiace ženy - 12 mg.",
-                ImageUrl2 = ""
+                ImageUrl2 = "Zn"
             });
 
             Zoznams.Add(new Vita
@@ -180,7 +180,7 @@ namespace Lekarnik.Data
                 Vyskyt_Strave = "Železo sa nachádza v týchto potravinách: morské plody, špenát, pečeň a iné vnútorné orgány, strukoviny, červené mäso, tekvicové semiačka, quinoa, morčacie mäso, brokolica, tofu, horká čokoláda, ryby.",
                 Upozornenia = "Nadbytok železa sa prejavuje: hnačkou, zvracaním, krvou v stolici.",
                 Davkovanie = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 7 mg, \nDojčatá 7-12 mesiacov – 10 mg, \nDeti 1-3 rokov – 8 mg, \nDeti 4-6 rokov – 9 mg, \nDeti 7-10 rokov – 10 mg, \nChlapci 11 - 14 rokov – 12 mg, \nDievčatá 11 -  14 rokov – 16 mg, \nChlapci 15 - 18 rokov – 12 mg, \nDievčatá 15 - 18 rokov – 15 mg, \nMuži – 11 mg, \nŽeny  - 17 mg, \nTehotné ženy – 30 mg, \nDojčiace ženy - 22 mg",
-                ImageUrl2 = ""
+                ImageUrl2 = "Fe"
             });
         }
     }
