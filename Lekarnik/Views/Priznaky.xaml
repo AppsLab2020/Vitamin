@@ -38,13 +38,12 @@
                                FontAttributes="Bold"
                                TextType="Text"
                                FontSize="Medium" Padding="0,0,0,0"/>
-                    
-
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
         </Grid>
+    
     
     <ContentPage.Resources>
         <Style TargetType="Grid">
