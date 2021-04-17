@@ -14,6 +14,9 @@
         <Tab Title="Vitaminy" Icon="vitamin.png">
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="#F9F9F9" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
+        <Tab Title="Výpočet vitamínov" Icon="info.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Vypocet}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
+        </Tab>
     </FlyoutItem>
 
     
