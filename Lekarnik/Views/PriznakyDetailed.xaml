@@ -27,7 +27,14 @@
             <Label Text="{Binding Davkovanie_Symptom}" 
                    TextColor="Black"
                    FontAttributes="Italic" 
-                   HorizontalOptions="Center" />
+                   HorizontalOptions="Center"/>
+            <Image Source="{Binding ImageUrlTwo}" 
+                   />
+                    
+              <Label Text="{Binding NumberTwo}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

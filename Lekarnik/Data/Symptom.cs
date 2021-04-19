@@ -35,9 +35,15 @@ namespace Lekarnik.Data
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Bolesť kĺbov",
-                Popis_Symptom = "C pomôže a vápnik"
+                ImageUrl_Symptom = "vitamin_C",
+                Popis_Symptom = "Nedostatok vitamínu C môže spôsobiť:  krvácanie z nosa alebo z ďasien, časté modriny, pomalé hojenie rán, bolesť kĺbov, anémia, suché vlasy a suchá pokožka, únava, náchylnosť na infekcie, znížená imunita. \n\nVitamín C (kyselina askorbová) je jedným z najdôležitejších vitamínov v našom tele. Má antioxidačné účinky, podieľa sa na tvorbe hormónov, znižuje hladinu cholesterolu, je nevyhnutný pre svaly, kosti, cievy i kožu.",
+                Vyskyt_Strave_Symptom = "Vitamín C sa nachádza v čerstvom ovocí a zelenine, hlavne v: brokolici, rakytníku, červenej paprike, černiciach.",
+                Upozornenia_Symptom = "Prejavy predávkovania vitamínu C:                      alergické reakcie, \nnevoľnosť, \nzažívacie ťažkosti.",
+                Davkovanie_Symptom = "Odporúčaná denná dávka Vitaminu C je:              adeti 0-3 rokov - 50 mg, \nadeti 0-6 rokov - 60 mg, \nadeti 7-10 rokov - 65 mg, \nachlapci 11-18 rokov - 80 mg, \namuži 18 a starší - 100 mg, \nadievčatá 11-18 rokov - 70 mg, \naženy 18 a staršie - 90 mg, \nagravidné ženy - 95 mg, \nadojčiace ženy - 130 mg. \n\nPríčinou môže byť aj nedostatok draslíka.",
+                ImageUrlTwo ="vitamin_Vapnik",
+                NumberTwo = "Príznaky ktoré symbolizuju nedostatok vápnika: \nosteoporóza, \nzvýšená hladina cholesterolu, \nzubný kaz, \nzápalové ochorenia, \nsvalové kŕče, \nnervozita, \nduševné ťažkosti, \nzvýšená lámavosť nechtov a \nsuchá pokožka. \n\nVápnik je prvok z radu tzv. kovov alkalických zemín. V našom tele sa vyskytuje vo veľkom množstve, každý ho máme približne kilogram. A je veľmi dôležitý, predovšetkým preto, že tvorí základ kostí a zubov. V kostiach máme až 99% z celkového množstva vápnika v našom tele. Mimo to sa ale podieľa na srdcovej činnosti, regulácii nervosvalovej činnosti. \n\nVápnik sa najviac vyskytuje v týchto potravinách: v maku, v mlieku, v syroch, brokolici, vo vajciach, orechoch a rôznych semienkach, ale aj vo vode (v prípade tzv. tvrdej vody) alebo zelenom čaji. \n\n Predávkovanie vápnikom sa môže preukázať: Nevoľnosťou - vracaním, kovovou pachuťou v ústach, bledosťou. Bolesťami hlavy a poruchami vedomia, bolesťou a slabosťou končatín. Ale aj postihnutím obličiek, poruchami vedomia a v extrémnom prípade zástavou srdca. \n \n Odporúčaná denná dávka:                                                          Dojčatá 0-6 mesiacov – 300 mg, \nDojčatá 7-12 mesiacov – 400 mg, \nDeti 1-3 rokov – 600 mg, \nDeti 4-6 rokov – 700 mg, \nDeti 7-10 rokov – 900 mg, \nChlapci 11 -  14 rokov – 1200 mg, \nDievčatá 11 -  14 rokov – 1300 mg, \nChlapci 15 -  18 rokov – 1400 mg, \nDievčatá 15 -  18 rokov – 1300 mg, \nMuži – 1200 mg, \nŽeny  - 1100 mg, \nTehotné ženy – 1400 mg, \nDojčiace ženy - 1600 mg."
             });
-            
+
             Symps.Add(new Symp
             {
                 Nazov_Symptom = "Bolesť nôh a ramien",

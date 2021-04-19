@@ -12,5 +12,7 @@ namespace Lekarnik.Models
           public string Upozornenia_Symptom { get; set; }
           public string Davkovanie_Symptom { get; set; }
           public string ImageUrl_Symptom { get; set; }
-    }
+          public string NumberTwo { get; set; }
+          public string ImageUrlTwo { get; set; }
+    } 
 }
