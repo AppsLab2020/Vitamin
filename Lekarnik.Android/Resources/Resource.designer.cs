@@ -11866,46 +11866,52 @@ namespace Lekarnik.Droid
 			public const int vitamin_A = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int vitamin_B2 = 2131165353;
+			public const int vitamin_B = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int vitamin_B6 = 2131165354;
+			public const int vitamin_B12 = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int vitamin_C = 2131165355;
+			public const int vitamin_B2 = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int vitamin_D = 2131165356;
+			public const int vitamin_B6 = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int vitamin_draslik = 2131165357;
+			public const int vitamin_C = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int vitamin_F = 2131165358;
+			public const int vitamin_D = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int vitamin_H = 2131165359;
+			public const int vitamin_draslik = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int vitamin_Horcik = 2131165360;
+			public const int vitamin_F = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int vitamin_K = 2131165361;
+			public const int vitamin_H = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int vitamin_Vapnik = 2131165362;
+			public const int vitamin_Horcik = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int vitamin_Zelezo = 2131165363;
+			public const int vitamin_K = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int vitamin_Zinok = 2131165364;
+			public const int vitamin_Vapnik = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int xamarin_logo = 2131165365;
+			public const int vitamin_Zelezo = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int Zn = 2131165366;
+			public const int vitamin_Zinok = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int xamarin_logo = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int Zn = 2131165368;
 			
 			static Drawable()
 			{

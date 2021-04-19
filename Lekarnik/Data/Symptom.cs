@@ -96,8 +96,8 @@ namespace Lekarnik.Data
                Popis_Symptom = "Nedostatok vytamímu A môže spôsobiť:\nzhoršené videnie,\nhnačka a črevné problémy, \nhrubá koža posiata škvrnamy, \nstrata chuti, \nzastavenie rastu, \nporucha obranyschopnosti, \nšeroslepota, \nvysychanie slizníc(napr.očí – t.j.poškodená rohovka)",
                Vyskyt_Strave_Symptom = "Vitamín A nachádzame v živočíšnych produktoch ako sú pečeň, mäso, vajcia alebo rybí tuk. \nProvitamínom vitamínu A je betakarotén, z ktorého sa v tele vytvára vitamín A.\nBetakarotén nachádzame v žltooranžovej zelenine.",
                Upozornenia_Symptom = "Prejavy predávkovania vitamínom A:            nevoľnosť a vracanie, \napatia, \nsuchá koža, \npadanie vlasov, \nporuchy videnia, \nkrvácanie, \nbolesti kĺbov.",
-               Davkovanie_Symptom = "Odporúčané denné dávky sú nasledovné:                   deti do 3 rokov − 0,4 mg, \ndeti 4 − 6 rokov − 0,5 mg, \ndeti 7 − 10 rokov − 0,7 mg, \ndeti a dospelí nad 10 rokov − 1 mg, \ndojčiace ženy − 1,6 mg"
-           });
+               Davkovanie_Symptom = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 250 μg, \nDojčatá 7-12 mesiacov – 250 μg, \nDeti 1-3 rokov – 250 μg, \nDeti 4-6 rokov – 300 μg, \nDeti 7-10 rokov – 400 μg, \nChlapci 11 - 14 rokov – 600 μg, \nDievčatá 11 -  14 rokov – 600 μg, \nChlapci 15 - 18 rokov – 750 μg, \nDievčatá 15 - 18 rokov – 650 μg, \nMuži – 900 μg, \nŽeny - 800 μg, \nTehotné ženy – 700 μg, \nDojčiace ženy - 1300 μg"
+            });
 
             Symps.Add(new Symp
             {
@@ -136,7 +136,7 @@ namespace Lekarnik.Data
                 Popis_Symptom = "Nedostatok vytamímu A môže spôsobiť:\nzhoršené videnie,\nhnačka a črevné problémy, \nhrubá koža posiata škvrnamy, \nstrata chuti, \nzastavenie rastu, \nporucha obranyschopnosti, \nšeroslepota, \nvysychanie slizníc(napr.očí – t.j.poškodená rohovka)",
                 Vyskyt_Strave_Symptom = "Vitamín A nachádzame v živočíšnych produktoch ako sú pečeň, mäso, vajcia alebo rybí tuk. \nProvitamínom vitamínu A je betakarotén, z ktorého sa v tele vytvára vitamín A.\nBetakarotén nachádzame v žltooranžovej zelenine.",
                 Upozornenia_Symptom = "Prejavy predávkovania vitamínom A:            nevoľnosť a vracanie, \napatia, \nsuchá koža, \npadanie vlasov, \nporuchy videnia, \nkrvácanie, \nbolesti kĺbov.",
-                Davkovanie_Symptom = "Odporúčané denné dávky sú nasledovné:                   deti do 3 rokov − 0,4 mg, \ndeti 4 − 6 rokov − 0,5 mg, \ndeti 7 − 10 rokov − 0,7 mg, \ndeti a dospelí nad 10 rokov − 1 mg, \ndojčiace ženy − 1,6 mg"
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 250 μg, \nDojčatá 7-12 mesiacov – 250 μg, \nDeti 1-3 rokov – 250 μg, \nDeti 4-6 rokov – 300 μg, \nDeti 7-10 rokov – 400 μg, \nChlapci 11 - 14 rokov – 600 μg, \nDievčatá 11 -  14 rokov – 600 μg, \nChlapci 15 - 18 rokov – 750 μg, \nDievčatá 15 - 18 rokov – 650 μg, \nMuži – 900 μg, \nŽeny - 800 μg, \nTehotné ženy – 700 μg, \nDojčiace ženy - 1300 μg"
             });
 
             Symps.Add(new Symp
@@ -156,7 +156,7 @@ namespace Lekarnik.Data
                 Popis_Symptom = "Nedostatok vytamínu B6 môže spôsobiť: \npodráždenosť, \nslabosť, \ntrhanie viečok, \nvznik zápalov kože, \nzápaly ústnej dutiny, \ntriaška, \npadanie vlasov, \nzvracanie, \nakné, \nvyrážky. \n\nKonzumácia potravín obsahujúcich vitamín B6 jw zásadná, pretože hrá kľúčovú úlohu v mnohých telesných funkciách, vrátane pohybu, pamäte, reguluje stavy úzkosti a uľavuje od depresií. Tiež pomáha k tvorbe protilátok, ktoré posilňujú imunitný systém a udržuje zdravý krvný obeh.",
                 Vyskyt_Strave_Symptom = "Vitamín B6 sa nachádza v týchto veciach: mäse, pečeni, rybách, ovocí a zelenine(avokádo, banány, zemiaky, kapusta, mrkva, špenát), ryži, fazuli, slnečnicových a sezamových semienkach, otruby, obilninách, orechoch, chliebe, vajíčkach, kyslých mliečnych produktoch.",
                 Upozornenia_Symptom = "Predavkovanie môže u mužov zvyšovať riziko vzniku rakoviny. Dlhodobé užívanie vysokých denných dávok môže tiež viesť k poruchám nervového systému. Inak nie je jeho nadbytok nijako nebezpečný, pretože ide o vitamín rozpustný vo vode, neukladá sa v tele a vylučuje močom.",
-                Davkovanie_Symptom = ""
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 0,2 mg, \nDojčatá 7-12 mesiacov – 0,4 mg, \nDeti 1-3 rokov – 0,6 mg, \nDeti 4-6 rokov – 0,8 mg, \nDeti 7-10 rokov – 1,2 mg, \nChlapci 11 - 14 rokov – 1,4 mg, \nDievčatá 11 -  14 rokov – 1,6 mg, \nChlapci 15 - 18 rokov – 1,8 mg, \nDievčatá 15 - 18 rokov – 1,7 mg, \nMuži – 1,7 mg, \nŽeny - 1,5 mg, \nTehotné ženy – 1,9 mg, \nDojčiace ženy - 1,9 mg"
             });
 
             Symps.Add(new Symp
@@ -214,7 +214,7 @@ namespace Lekarnik.Data
                 Popis_Symptom = "Nedostatok vytamínu B6 môže spôsobiť: \npodráždenosť, \nslabosť, \ntrhanie viečok, \nvznik zápalov kože, \nzápaly ústnej dutiny, \ntriaška, \npadanie vlasov, \nzvracanie, \nakné, \nvyrážky. \n\nKonzumácia potravín obsahujúcich vitamín B6 jw zásadná, pretože hrá kľúčovú úlohu v mnohých telesných funkciách, vrátane pohybu, pamäte, reguluje stavy úzkosti a uľavuje od depresií. Tiež pomáha k tvorbe protilátok, ktoré posilňujú imunitný systém a udržuje zdravý krvný obeh.",
                 Vyskyt_Strave_Symptom = "Vitamín B6 sa nachádza v týchto veciach: mäse, pečeni, rybách, ovocí a zelenine(avokádo, banány, zemiaky, kapusta, mrkva, špenát), ryži, fazuli, slnečnicových a sezamových semienkach, otruby, obilninách, orechoch, chliebe, vajíčkach, kyslých mliečnych produktoch.",
                 Upozornenia_Symptom = "Predavkovanie môže u mužov zvyšovať riziko vzniku rakoviny. Dlhodobé užívanie vysokých denných dávok môže tiež viesť k poruchám nervového systému. Inak nie je jeho nadbytok nijako nebezpečný, pretože ide o vitamín rozpustný vo vode, neukladá sa v tele a vylučuje močom.",
-                Davkovanie_Symptom = ""
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 0,2 mg, \nDojčatá 7-12 mesiacov – 0,4 mg, \nDeti 1-3 rokov – 0,6 mg, \nDeti 4-6 rokov – 0,8 mg, \nDeti 7-10 rokov – 1,2 mg, \nChlapci 11 - 14 rokov – 1,4 mg, \nDievčatá 11 -  14 rokov – 1,6 mg, \nChlapci 15 - 18 rokov – 1,8 mg, \nDievčatá 15 - 18 rokov – 1,7 mg, \nMuži – 1,7 mg, \nŽeny - 1,5 mg, \nTehotné ženy – 1,9 mg, \nDojčiace ženy - 1,9 mg"
             });
 
             Symps.Add(new Symp
@@ -354,7 +354,7 @@ namespace Lekarnik.Data
                 Popis_Symptom = "Nedostatok vytamímu A môže spôsobiť:\nzhoršené videnie,\nhnačka a črevné problémy, \nhrubá koža posiata škvrnamy, \nstrata chuti, \nzastavenie rastu, \nporucha obranyschopnosti, \nšeroslepota, \nvysychanie slizníc(napr.očí – t.j.poškodená rohovka)",
                 Vyskyt_Strave_Symptom = "Vitamín A nachádzame v živočíšnych produktoch ako sú pečeň, mäso, vajcia alebo rybí tuk. \nProvitamínom vitamínu A je betakarotén, z ktorého sa v tele vytvára vitamín A.\nBetakarotén nachádzame v žltooranžovej zelenine.",
                 Upozornenia_Symptom = "Prejavy predávkovania vitamínom A:            nevoľnosť a vracanie, \napatia, \nsuchá koža, \npadanie vlasov, \nporuchy videnia, \nkrvácanie, \nbolesti kĺbov.",
-                Davkovanie_Symptom = "Odporúčané denné dávky sú nasledovné:                   deti do 3 rokov − 0,4 mg, \ndeti 4 − 6 rokov − 0,5 mg, \ndeti 7 − 10 rokov − 0,7 mg, \ndeti a dospelí nad 10 rokov − 1 mg, \ndojčiace ženy − 1,6 mg"
+                Davkovanie_Symptom = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 250 μg, \nDojčatá 7-12 mesiacov – 250 μg, \nDeti 1-3 rokov – 250 μg, \nDeti 4-6 rokov – 300 μg, \nDeti 7-10 rokov – 400 μg, \nChlapci 11 - 14 rokov – 600 μg, \nDievčatá 11 -  14 rokov – 600 μg, \nChlapci 15 - 18 rokov – 750 μg, \nDievčatá 15 - 18 rokov – 650 μg, \nMuži – 900 μg, \nŽeny - 800 μg, \nTehotné ženy – 700 μg, \nDojčiace ženy - 1300 μg"
             });
 
             Symps.Add(new Symp
