@@ -35,6 +35,13 @@
                    TextColor="Black"
                    FontAttributes="Italic" 
                    HorizontalOptions="Center"/>
+            <Image Source="{Binding ImageUrlThree}" 
+                   />
+
+            <Label Text="{Binding NumberThree}" 
+                   TextColor="Black"
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -13,5 +13,7 @@
 
         public string NumberTwo { get; set; }
         public string ImageUrlTwo { get; set; }
+        public string NumberThree { get; set; }
+        public string ImageUrlThree { get; set; }
     }
 }
