@@ -62,7 +62,7 @@ namespace Lekarnik.Data
                 Popis = "Nedostatok vytamínu B6 môže spôsobiť: \nbolesť nôh a ramien, \nmravčenie v končatinách, \nproblém s chôdzou, \nspomalené reflexy, \ndýchavičnosť. \n\nVitamín B12 je dôležitý predovšetkým pre správnu funkciu krvotvorby, podieľa sa na syntéze DNA a ATP a je nevyhnutný pre správnu funkciu nervového systému.",
                 Vyskyt_Strave = "Hlavným zdrojom tohto vitamínu v potrave sú živočíšne produkty: vajcia, mlieko, syry, mäso a vnútornosti.",
                 Upozornenia = "1 z 1000 ľudí môže mať - alergické reakcie (svrbenie, kožná vyrážka, žihľavka, akné)",
-                Davkovanie = "Dávkovanie majú všetci rovnaké.                                          Denná dávka 300 µg, \ntehotné ženy by sa mali poradiť s lekárom.",
+                Davkovanie = "Odporúčaná denná dávka:                                                            Dojčatá 0-6 mesiacov – 0,4 μg, \nDojčatá 7-12 mesiacov – 0,8 μg, \nDeti 1-3 rokov – 1 μg, \nDeti 4-6 rokov – 1,5 μg, \nDeti 7-10 rokov – 1,8 μg, \nChlapci 11 - 14 rokov – 2,5 μg, \nDievčatá 11 -  14 rokov – 3 μg, \nChlapci 15 - 18 rokov – 3 μg, \nDievčatá 15 - 18 rokov – 2,5 μg, \nMuži – 2,6 μg, \nŽeny - 2,4 μg, \nTehotné ženy – 2,6 μg, \nDojčiace ženy - 2,8 μg",
                 ImageUrl2 = "B12"
             });
             
