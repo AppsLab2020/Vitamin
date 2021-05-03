@@ -17,11 +17,16 @@
         <Tab Title="Vitaminy" Icon="vitamin.png">
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="#F9F9F9" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
-        <Tab Title="Výpočet vitamínov" Icon="info.png">
-            <ShellContent ContentTemplate="{DataTemplate views:Jedlo}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
-        </Tab>
-        <Tab Title="Tabulka" Icon="info.png">
-            <ShellContent ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
+     
+        
+        <Tab Title="Vypocet"   
+             Icon="info.png">
+            <ShellContent 
+                Title="Jedlo"  
+                ContentTemplate="{DataTemplate views:Jedlo}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black" />
+            <ShellContent 
+                Title="Tabulka"
+                ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
         </Tab>
     </FlyoutItem>
 
