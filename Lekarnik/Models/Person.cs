@@ -5,11 +5,10 @@ using SQLite;
 
 namespace Lekarnik.Models
 {
-    public class Food
+    public class Person
     {
         [PrimaryKey, AutoIncrement]
-        public int ID { get; set; }
+        public int PersonID { get; set; }
         public string Name { get; set; }
-        public int Piece { get; set; }
     }
 }

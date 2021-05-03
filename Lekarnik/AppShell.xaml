@@ -3,10 +3,13 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        x:Class="Lekarnik.AppShell"
        xmlns:views="clr-namespace:Lekarnik.Views"
+       xmlns:lekarnik="clr-namespace:Lekarnik;assembly=Lekarnik"
        x:Name="shell"
        BackgroundColor="Red">
 
+    
 
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <Tab Title="Priznaky" Icon="ill.png">
             <ShellContent ContentTemplate="{DataTemplate views:Priznaky}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
@@ -17,12 +20,16 @@
         <Tab Title="Výpočet vitamínov" Icon="info.png">
             <ShellContent ContentTemplate="{DataTemplate views:Jedlo}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
+        <Tab Title="Tabulka" Icon="info.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
+        </Tab>
     </FlyoutItem>
 
+
     
-            <MenuItem Text="Spätná väzba"
-              Clicked="EmailClick_Clicked"
-              IconImageSource="feedback.png"/>
+        <MenuItem Text="Spätná väzba"
+                  Clicked="EmailClick_Clicked"
+                  IconImageSource="feedback.png"/>
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="Black"

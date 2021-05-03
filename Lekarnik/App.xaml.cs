@@ -1,6 +1,7 @@
 ﻿using Lekarnik.Controls;
 using System;
 using System.IO;
+using Lekarnik.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,17 +9,17 @@ namespace Lekarnik
 {
     public partial class App : Application
     {
-        static Database database;
+        static SQLiteHelper db;
 
-        public static Database Database
+        public static SQLiteHelper SQLiteDb
         {
             get
             {
-                if (database == null)
+                if (db == null)
                 {
-                    database = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "people.db3"));
+                    db = new SQLiteHelper(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "XamarinSQLite.db3"));
                 }
-                return database;
+                return db;
             }
         }
 
