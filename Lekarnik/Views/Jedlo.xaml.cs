@@ -29,16 +29,17 @@ namespace Lekarnik.Views
         }
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtName.Text))
+            if (!string.IsNullOrEmpty(txtName.Text) && !string.IsNullOrWhiteSpace(pieceEntry.Text))
             {
                 Person person = new Person()
                 {
-                    Name = txtName.Text
+                    Name = txtName.Text,
+                    Piece = int.Parse(pieceEntry.Text)
                 };
 
                 //Add New Person
                 await App.SQLiteDb.SaveItemAsync(person);
-                txtName.Text = string.Empty;
+                txtName.Text = pieceEntry.Text = string.Empty;
                 await DisplayAlert("Success", "Person added Successfully", "OK");
                 //Get All Persons
                 var personList = await App.SQLiteDb.GetItemsAsync();

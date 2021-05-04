@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Lekarnik.Models;
 using SQLite;
@@ -38,13 +39,27 @@ namespace Lekarnik.Views
         public Task<List<Person>> GetItemsAsync()  
         {  
             return db.Table<Person>().ToListAsync();  
-        }  
-  
-         
+        }
+        
         //Read Item  
         public Task<Person> GetItemAsync(int personId)  
         {  
             return db.Table<Person>().Where(i => i.PersonID == personId).FirstOrDefaultAsync();
         }
+        
+        public Task<int> SumItemAsync()
+        {
+            try
+            {
+                var g =  db.ExecuteScalarAsync<int>("Select SUM (Piece) from Person");
+                return g;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        
+        
     }  
 }  

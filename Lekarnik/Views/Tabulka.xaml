@@ -7,7 +7,7 @@
             <ListView x:Name="lstPersons">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell TextColor="GreenYellow" DetailColor="Blue" Text="{Binding Name}" Detail="{Binding PersonID} "></TextCell>
+                        <TextCell TextColor="GreenYellow" DetailColor="Blue" Text="{Binding num_reg_totales}"></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
