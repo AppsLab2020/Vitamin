@@ -5,24 +5,22 @@
     <StackLayout>
         <StackLayout>
             <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
-                <Image x:Name="imgBanner" Source="banner.png" ></Image>
-                <Image Margin="0,0,0,10" HeightRequest="100" Source="SQLite.png" ></Image>
-                <Label Margin="0,0,0,10" Text="SQLite" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+
                 <Entry x:Name="txtPersonId" Placeholder="PersonId Update and Delete" TextColor="Black" PlaceholderColor="Silver"></Entry>
-                <Entry x:Name="txtName" Placeholder="Enter Person Name" TextColor="Black" PlaceholderColor="Silver"></Entry>
-                <Entry x:Name="pieceEntry" Placeholder="Enter Person Name" TextColor="Black" PlaceholderColor="Silver"></Entry>
+                <Entry x:Name="txtName" Placeholder="Meno" TextColor="Black" PlaceholderColor="Silver"></Entry>
+                <Entry x:Name="pieceEntry" Placeholder="Číslo" TextColor="Black" PlaceholderColor="Silver"></Entry>
                 <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                     <Button x:Name="btnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked" />
-                    <Button x:Name="btnRead" WidthRequest="200" Text="Read" Clicked="BtnRead_Clicked" />
                 </StackLayout>
                 <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                    <Button x:Name="btnUpdate" WidthRequest="200" Text="Update" Clicked="BtnUpdate_Clicked"/>
-                    <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
+                   <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
                 </StackLayout>
+                
                 <ListView x:Name="lstPersons">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <TextCell TextColor="GreenYellow" DetailColor="Blue" Text="{Binding PersonID}" Detail="{Binding Piece} "></TextCell>
+                            <TextCell TextColor="GreenYellow" DetailColor="Blue" Text="{Binding Name}" Detail="{Binding Piece}"></TextCell>
+                            
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
@@ -30,3 +28,4 @@
         </StackLayout>
     </StackLayout>
 </ContentPage>
+

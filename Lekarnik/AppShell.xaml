@@ -5,7 +5,9 @@
        xmlns:views="clr-namespace:Lekarnik.Views"
        xmlns:lekarnik="clr-namespace:Lekarnik;assembly=Lekarnik"
        x:Name="shell"
-       BackgroundColor="Red">
+       BackgroundColor="Red"
+       
+       >
 
     
 
@@ -20,14 +22,20 @@
      
         
         <Tab Title="Vypocet"   
-             Icon="info.png">
+             Icon="info.png"
+             >
+            
             <ShellContent 
-                Title="Jedlo"  
-                ContentTemplate="{DataTemplate views:Jedlo}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black" />
+                Title="               Jedlo               " 
+                ContentTemplate="{DataTemplate views:Jedlo}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black" Shell.TabBarForegroundColor="Black"/>
             <ShellContent 
-                Title="Tabulka"
+                Title="               Tabulka               "
                 ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
         </Tab>
+        <Tab Title="Vošoust" Icon="vitamin.png">
+                <ShellContent ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="#F9F9F9" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
+            </Tab>
+        
     </FlyoutItem>
 
 

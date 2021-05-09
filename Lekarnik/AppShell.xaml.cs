@@ -29,6 +29,8 @@ namespace Lekarnik
             RegisterRoutes1();
             BindingContext = this;
 
+
+
         }
 
         void RegisterRoutes()
