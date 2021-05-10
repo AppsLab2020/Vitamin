@@ -33,8 +33,13 @@
                 ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
         </Tab>
         <Tab Title="Vošoust" Icon="vitamin.png">
-                <ShellContent ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="#F9F9F9" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
-            </Tab>
+                <ShellContent 
+                    Title="Todočko"
+                    ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+                <ShellContent 
+                    Title="druhá page"
+                    ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+        </Tab>
         
     </FlyoutItem>
 
