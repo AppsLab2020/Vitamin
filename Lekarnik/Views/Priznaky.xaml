@@ -64,7 +64,7 @@
     </ContentPage.Resources>
    
         <Shell.SearchHandler>
-        <controls:SymptomSearchHandler    Placeholder="Enter search term"
+        <controls:SymptomSearchHandler    Placeholder="Vyhľadavanie symptómov"
                                           PlaceholderColor="Black"
                                           ShowsResults="true"
                                           BackgroundColor="White"

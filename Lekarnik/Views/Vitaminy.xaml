@@ -59,7 +59,7 @@
     </ContentPage.Resources>
     
     <Shell.SearchHandler>
-        <controls:VitaminSearchHandler    Placeholder="Enter search term"
+        <controls:VitaminSearchHandler    Placeholder="Vyhľadávanie vitamínov"
                                           PlaceholderColor="Black"
                                           ShowsResults="true"
                                           BackgroundColor="White"
