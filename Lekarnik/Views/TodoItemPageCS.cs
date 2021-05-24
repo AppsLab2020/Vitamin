@@ -10,7 +10,7 @@ namespace Lekarnik
     {
         public TodoItemPageCS()
         {
-            Title = "Todo Item";
+            Title = "Zápisník";
 
             var nameEntry = new Entry();
             nameEntry.SetBinding(Entry.TextProperty, "Name");

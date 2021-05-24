@@ -10,7 +10,7 @@ namespace Lekarnik.Views
 
         public TodoListPageCS()
         {
-            Title = "Todo";
+            Title = "Zápisník";
 
             var toolbarItem = new ToolbarItem
             {
