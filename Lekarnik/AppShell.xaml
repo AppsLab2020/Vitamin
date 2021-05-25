@@ -6,7 +6,7 @@
        xmlns:lekarnik="clr-namespace:Lekarnik;assembly=Lekarnik"
        x:Name="shell"
        BackgroundColor="Red"
-       
+      
        >
 
     
@@ -24,7 +24,7 @@
         <Tab Title="Zápisník" Icon="vitamin.png">
                 <ShellContent 
                     
-                    ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+                    ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
                        </Tab>
         
     </FlyoutItem>

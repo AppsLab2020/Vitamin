@@ -16,7 +16,7 @@ namespace Lekarnik
             nameEntry.SetBinding(Entry.TextProperty, "Name");
 
             var notesEntry = new Entry();
-            notesEntry.SetBinding(Entry.TextProperty, "Poznámky");
+            notesEntry.SetBinding(Entry.TextProperty, "Notes");
 
             var doneSwitch = new Switch();
             doneSwitch.SetBinding(Switch.IsToggledProperty, "Done");
