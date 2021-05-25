@@ -19,11 +19,13 @@
         <Tab Title="Vitaminy" Icon="vitamin.png">
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="#F9F9F9" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
+     
+        
         <Tab Title="Zápisník" Icon="vitamin.png">
                 <ShellContent 
                     
-                    ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
-                 </Tab>
+                    ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+                       </Tab>
         
     </FlyoutItem>
 
