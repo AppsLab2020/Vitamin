@@ -42,7 +42,7 @@ namespace Lekarnik.Views
 
                     var tick = new Image
                     {
-                        Source = ImageSource.FromFile("check.png"),
+                        Source = ImageSource.FromFile("done.png"),
                         HorizontalOptions = LayoutOptions.End
                     };
                     tick.SetBinding(VisualElement.IsVisibleProperty, "Done");
