@@ -51,11 +51,11 @@ namespace Lekarnik
                 VerticalOptions = LayoutOptions.StartAndExpand,
                 Children =
                 {
-                    new Label { Text = "Názov" },
+                    new Label { Text = "Názov", TextColor = Color.Red }, 
                     nameEntry,
-                    new Label { Text = "Poznámka" },
+                    new Label { Text = "Poznámka", TextColor = Color.Red },
                     notesEntry,
-                    new Label { Text = "Zjedené" },
+                    new Label { Text = "Zjedené", TextColor = Color.Red },
                     doneSwitch,
                     saveButton,
                     deleteButton,

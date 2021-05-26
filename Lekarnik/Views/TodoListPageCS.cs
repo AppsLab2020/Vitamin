@@ -34,7 +34,9 @@ namespace Lekarnik.Views
                     var label = new Label
                     {
                         VerticalTextAlignment = TextAlignment.Center,
-                        HorizontalOptions = LayoutOptions.StartAndExpand
+                        HorizontalOptions = LayoutOptions.StartAndExpand,
+                        TextColor = Color.Black,
+                        
                     };
                     label.SetBinding(Label.TextProperty, "Name");
 
@@ -50,7 +52,8 @@ namespace Lekarnik.Views
                         Margin = new Thickness(20, 0, 0, 0),
                         Orientation = StackOrientation.Horizontal,
                         HorizontalOptions = LayoutOptions.FillAndExpand,
-                        Children = { label, tick }
+                        Children = { label, tick },
+                        
                     };
 
                     return new ViewCell { View = stackLayout };
