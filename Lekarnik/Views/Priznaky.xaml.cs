@@ -18,8 +18,14 @@ namespace Lekarnik.Views
         }
         async void OnCollectionViewSelectionChanged1(object sender, SelectionChangedEventArgs e)
         {
-            string XNazov1 = (e.CurrentSelection.FirstOrDefault() as Symp).Nazov_Symptom;
-            await Shell.Current.GoToAsync($"priznakydetails?nazov_Symptom={XNazov1}");
+            var view = sender as CollectionView;
+
+            if (view.SelectedItem != null)
+            {
+                string XNazov1 = (e.CurrentSelection.FirstOrDefault() as Symp).Nazov_Symptom;
+                await Shell.Current.GoToAsync($"priznakydetails?nazov_Symptom={XNazov1}");
+                view.SelectedItem = null;
+            }
         }
         protected override bool OnBackButtonPressed()
         {
