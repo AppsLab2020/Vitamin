@@ -21,7 +21,7 @@
         </Tab>
      
         
-        <Tab Title="Zápisník" Icon="vitamin.png">
+        <Tab Title="Zápisník" Icon="notes_logo.png">
                 <ShellContent 
                     
                     ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
