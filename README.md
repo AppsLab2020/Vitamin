@@ -42,7 +42,7 @@ Bude tam aj možnosť symptómy a ak vás bude niečo trápiť dokážete zisti�
 <li> spätná väzba ✔</li>
 <li> zmenenie farby na horných lištách ✔</li>
 <li> zmena štýlu usporiadania vitamínov ✔</li>
-<li> popridávať viac symptomov </li>
-<li> dokonnčiť informácie o vitamínoch </li> 
+<li> popridávať viac symptomov ✔</li>
+<li> dokončiť informácie o vitamínoch ✔</li> 
 <li> možná funkcia na výpočet hodnoty vitamínov v jedle? </li>
 </ol>
