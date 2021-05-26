@@ -55,7 +55,7 @@ namespace Lekarnik
                     nameEntry,
                     new Label { Text = "Poznámka" },
                     notesEntry,
-                    new Label { Text = "Uložiť" },
+                    new Label { Text = "Zjedené" },
                     doneSwitch,
                     saveButton,
                     deleteButton,
