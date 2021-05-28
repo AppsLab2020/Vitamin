@@ -24,7 +24,7 @@
         <Tab Title="Zápisník" Icon="notes_logo.png">
                 <ShellContent 
                     
-                    ContentTemplate="{DataTemplate views:TodoListPageCS}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
+                    ContentTemplate="{DataTemplate lekarnik:TodoListPage}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
                        </Tab>
         
     </FlyoutItem>

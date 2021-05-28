@@ -37,5 +37,11 @@ namespace Lekarnik
                 });
             }
         }
+
+        async void OnDeleteClicked(object sender, EventArgs e)
+        {
+            await TodoItemDatabase.DeleteAllItems<TodoItem>();
+            listView.ItemsSource = null;
+        }
     }
 }

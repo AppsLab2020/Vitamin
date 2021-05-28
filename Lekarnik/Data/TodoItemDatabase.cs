@@ -54,5 +54,10 @@ namespace Lekarnik
         {
             return Database.DeleteAsync(item);
         }
+        
+        public static Task<int> DeleteAllItems<T>()
+        {
+            return Database.DeleteAllAsync<TodoItem>();
+        }
     }
 }
