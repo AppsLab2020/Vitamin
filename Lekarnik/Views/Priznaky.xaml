@@ -12,8 +12,10 @@
             <BoxView.Background>
                 <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
                     <GradientStop Color="Red" Offset="0.1"></GradientStop>
-                    <GradientStop Color="Purple" Offset="0.3"></GradientStop>
-                    <GradientStop Color="MediumPurple" Offset="0.6"></GradientStop>
+                    <GradientStop Color="Orange" Offset="0.3"></GradientStop>
+                    <GradientStop Color="YellowGreen" Offset="0.6"></GradientStop>
+                    <GradientStop Color="LightBlue" Offset="0.8"></GradientStop>
+                    
                     <GradientStop Color="White" Offset="1.0"></GradientStop>
                 </LinearGradientBrush>
             </BoxView.Background>
@@ -34,7 +36,7 @@
                         </Grid.ColumnDefinitions>
                         <Label Grid.Column="1"
                                Text="{Binding Nazov_Symptom}"
-                               TextColor="Black" 
+                               TextColor="Black"
                                FontAttributes="Bold"
                                TextType="Text"
                                FontSize="Medium" Padding="0,0,0,0"/>

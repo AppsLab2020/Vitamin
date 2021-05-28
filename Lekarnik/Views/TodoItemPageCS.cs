@@ -21,7 +21,7 @@ namespace Lekarnik
             var doneSwitch = new Switch();
             doneSwitch.SetBinding(Switch.IsToggledProperty, "Done");
 
-            var saveButton = new Button { Text = "Uložiť" };
+            var saveButton = new Button { Text = "Uložiť", BackgroundColor = Color.Red};
             saveButton.Clicked += async (sender, e) =>
             {
                 var todoItem = (TodoItem)BindingContext;
@@ -30,7 +30,7 @@ namespace Lekarnik
                 await Navigation.PopAsync();
             };
 
-            var deleteButton = new Button { Text = "Vymazať" };
+            var deleteButton = new Button { Text = "Vymazať", BackgroundColor = Color.White};
             deleteButton.Clicked += async (sender, e) =>
             {
                 var todoItem = (TodoItem)BindingContext;
@@ -39,7 +39,7 @@ namespace Lekarnik
                 await Navigation.PopAsync();
             };
 
-            var cancelButton = new Button { Text = "Ukončiť" };
+            var cancelButton = new Button { Text = "Ukončiť", BackgroundColor = Color.Blue};
             cancelButton.Clicked += async (sender, e) =>
             {
                 await Navigation.PopAsync();
