@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Lekarnik.TodoItemPage" Title="Zápisnik">
     <StackLayout Margin="20" VerticalOptions="StartAndExpand">
-        <Label Text="Name" />
+        <Label Text="Názov" TextColor="Red" />
         <Entry Text="{Binding Name}" />
-        <Label Text="Notes" />
+        <Label Text="Poznámka" TextColor="Red" />
         <Entry Text="{Binding Notes}" />
-        <Label Text="Done" />
+        <Label Text="Zjedené" TextColor="Red" />
         <Switch IsToggled="{Binding Done}" />
-        <Button Text="Save" Clicked="OnSaveClicked" />
-        <Button Text="Delete" Clicked="OnDeleteClicked" />
-        <Button Text="Cancel" Clicked="OnCancelClicked" />
+        <Button Text="Uložiť" Clicked="OnSaveClicked" BackgroundColor="Red" />
+        <Button Text="Vymazať" Clicked="OnDeleteClicked" BackgroundColor="White" />
+        <Button Text="Ukončiť" Clicked="OnCancelClicked" BackgroundColor="Blue" />
     </StackLayout>
 </ContentPage>

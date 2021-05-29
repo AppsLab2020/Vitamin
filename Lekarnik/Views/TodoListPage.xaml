@@ -22,8 +22,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <StackLayout>
-            <Button Text="Vymazať všetko" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Clicked="OnDeleteClicked"></Button>
-        </StackLayout>
+        <Button Text="Vymazať všetko" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Clicked="OnDeleteClicked"></Button>
     </Grid>
 </ContentPage>
