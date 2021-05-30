@@ -9,6 +9,6 @@
         <Switch IsToggled="{Binding Done}" />
         <Button Text="Uložiť" Clicked="OnSaveClicked" BackgroundColor="Red" />
         <Button Text="Vymazať" Clicked="OnDeleteClicked" BackgroundColor="White" />
-        <Button Text="Ukončiť" Clicked="OnCancelClicked" BackgroundColor="Blue" />
+        <Button Text="Ukončiť" Clicked="OnCancelClicked" BackgroundColor="#0099ff" />
     </StackLayout>
 </ContentPage>

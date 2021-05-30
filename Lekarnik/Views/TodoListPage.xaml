@@ -15,7 +15,7 @@
                 <DataTemplate>
                     <ViewCell x:Name="viewcell">
                         <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                            <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Blue"/>
+                            <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
                             <Image Source="done.png" HorizontalOptions="End" IsVisible="{Binding Done}" />
                         </StackLayout>
                     </ViewCell>
