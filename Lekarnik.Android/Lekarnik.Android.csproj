@@ -76,6 +76,7 @@
     <AndroidResource Include="Resources\drawable\feedback.png" />
     <AndroidResource Include="Resources\drawable\flyout_header.jpg" />
     <AndroidResource Include="Resources\drawable\vitamin_logo.png" />
+    <AndroidResource Include="Resources\drawable\vitamin_logo3.jpg" />
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
