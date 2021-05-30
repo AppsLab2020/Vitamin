@@ -22,6 +22,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Vymazať všetko" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Clicked="OnDeleteClicked"></Button>
+        <ImageButton Source="delete_database.png" BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Clicked="OnDeleteClicked"></ImageButton>
     </Grid>
 </ContentPage>

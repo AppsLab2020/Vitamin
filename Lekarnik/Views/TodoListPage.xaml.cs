@@ -43,5 +43,17 @@ namespace Lekarnik
             await TodoItemDatabase.DeleteAllItems<TodoItem>();
             listView.ItemsSource = null;
         }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+
+            {
+                var exit = await this.DisplayAlert("Potvrdiť ukončenie", "Naozaj chcete ukončiť aplikáciu?", "Áno", "Nie").ConfigureAwait(false);
+                if (exit)
+                    System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
+            });
+            return true;
+        }
     }
 }
