@@ -13,10 +13,10 @@
 
     
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Priznaky" Icon="ill.png">
+        <Tab Title="Príznaky" Icon="ill.png">
             <ShellContent ContentTemplate="{DataTemplate views:Priznaky}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
-        <Tab Title="Vitaminy" Icon="vitamin.png">
+        <Tab Title="Vitamíny" Icon="vitamin.png">
             <ShellContent ContentTemplate="{DataTemplate views:Vitaminy}" Shell.TabBarBackgroundColor="#F9F9F9" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
         </Tab>
      
