@@ -26,7 +26,16 @@
                     
                     ContentTemplate="{DataTemplate lekarnik:TodoListPage}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
                        </Tab>
-        
+        <Tab Title="Vypocet"   
+             Icon="info.png">
+        <ShellContent 
+                Title="Jedlo"  
+                ContentTemplate="{DataTemplate views:Jedlo}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black" />
+        <ShellContent 
+                Title="Tabulka"
+                ContentTemplate="{DataTemplate views:Tabulka}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+        </Tab>
+
     </FlyoutItem>
 
 

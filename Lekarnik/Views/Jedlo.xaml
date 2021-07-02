@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lekarnik.Views.Jedlo">
+    <StackLayout>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+
+                <Entry x:Name="txtPersonId" Placeholder="PersonId Update and Delete" TextColor="Black" PlaceholderColor="Silver"></Entry>
+                <Entry x:Name="txtName" Placeholder="Meno" TextColor="Black" PlaceholderColor="Silver"></Entry>
+                <Entry x:Name="pieceEntry" Placeholder="Číslo" TextColor="Black" PlaceholderColor="Silver"></Entry>
+                <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked" />
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
+                </StackLayout>
+
+                <ListView x:Name="lstPersons">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell TextColor="GreenYellow" DetailColor="Blue" Text="{Binding Name}" Detail="{Binding Piece}"></TextCell>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

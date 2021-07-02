@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lekarnik.Views.Tabulka">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="lstPersons">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell TextColor="GreenYellow" DetailColor="Blue" Text="{Binding num_reg_totales}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
