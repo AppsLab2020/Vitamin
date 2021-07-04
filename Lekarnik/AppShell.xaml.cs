@@ -21,12 +21,16 @@ namespace Lekarnik
         public ICommand RandomPageCommand => new Command(async () => await NavigateToRandomPageAsync());
         public ICommand HelpCommand1 => new Command<string>(async (url) => await Launcher.OpenAsync(url));
         public ICommand RandomPageCommand1 => new Command(async () => await NavigateToRandomPageAsync1());
+        public ICommand HelpCommand2 => new Command<string>(async (url) => await Launcher.OpenAsync(url));
+        public ICommand RandomPageCommand2 => new Command(async () => await NavigateToRandomPageAsync2());
         public AppShell()
         {
             InitializeComponent();
             RegisterRoutes();
             BindingContext = this;
             RegisterRoutes1();
+            BindingContext = this;
+            RegisterRoutes2();
             BindingContext = this;
 
 
@@ -52,7 +56,15 @@ namespace Lekarnik
                 Routing.RegisterRoute(item.Key, item.Value);
             }
         }
+        void RegisterRoutes2()
+        {
+            routes.Add("hodnotadetails", typeof(PriznakyDetailed));
 
+            foreach (var item in routes)
+            {
+                Routing.RegisterRoute(item.Key, item.Value);
+            }
+        }
         async Task NavigateToRandomPageAsync()
         {
             string destinationRoute = routes.ElementAt(rand.Next(0, routes.Count)).Key;
@@ -98,7 +110,25 @@ namespace Lekarnik
                 emailMessenger.SendEmail("skuska@gmail.com", "Chyba aplikacie/navrh na vylepsenie", "");
             }
         }
+       
+        async Task NavigateToRandomPageAsync2()
+        {
+            string destinationRoute = routes.ElementAt(rand.Next(0, routes.Count)).Key;
+            string XXNazov2 = null;
 
+            switch (destinationRoute)
+            {
+                case "hodnotadetails":
+                    XXNazov2 = Value.Values.ElementAt(rand.Next(0, Value.Values.Count)).NameOfHodnota;
+                    break;
+
+
+            }
+
+            ShellNavigationState state = Shell.Current.CurrentState;
+            await Shell.Current.GoToAsync($"{state.Location}/{destinationRoute}?nameOfHodnota={XXNazov2}");
+            Shell.Current.FlyoutIsPresented = false;
+        }
 
     }
 }

@@ -97,5 +97,40 @@
                        FontAttributes="Bold" />
             </Grid>
         </DataTemplate>
+
+        <DataTemplate x:Key="Template2">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="1" 
+                       Text="{Binding NameOfHodnota}" 
+                       FontAttributes="Bold" />
+                <Label Grid.Row="1"
+                       Grid.Column="1" 
+                       Text="{Binding HodnotaOfHodnota}"
+                       FontAttributes="Italic" 
+                       VerticalOptions="End" />
+             
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="SearchTemplate2">
+            <Grid Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.15*" />
+                    <ColumnDefinition Width="0.85*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="1" 
+                       Text="{Binding NameOfHodnota}" 
+                       FontAttributes="Bold" />
+            </Grid>
+        </DataTemplate>
+
     </Application.Resources>
 </Application>
