@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 
 namespace Lekarnik.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    [QueryProperty("NameOfHodnota", "nameOfHodnota")]
     public partial class ZratanieDetailed : ContentPage
     {
 

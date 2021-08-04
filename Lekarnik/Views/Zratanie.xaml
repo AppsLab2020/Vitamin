@@ -72,7 +72,7 @@
                                           TextColor="Black"
                                           ItemTemplate="{StaticResource SearchTemplate2}"
                                           Eco="{x:Static data:Value.Values}"
-                                          SelectedItemNavigationTarget1="{x:Type views:ZratanieDetailed}" />
+                                          SelectedItemNavigationTarget2="{x:Type views:ZratanieDetailed}" />
             </Shell.SearchHandler>
        
 </ContentPage>

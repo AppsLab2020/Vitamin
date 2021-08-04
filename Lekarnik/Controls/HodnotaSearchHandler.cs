@@ -12,7 +12,7 @@ namespace Lekarnik.Controls
     {
 
         public IList<Hodnota> Eco { get; set; }
-        public Type SelectedItemNavigationTarget1 { get; set; }
+        public Type SelectedItemNavigationTarget2 { get; set; }
 
         protected override void OnQueryChanged(string oldValue, string newValue)
         {
@@ -41,7 +41,7 @@ namespace Lekarnik.Controls
 
         string GetNavigationTarget()
         {
-            return (Shell.Current as AppShell).Routes.FirstOrDefault(route => route.Value.Equals(SelectedItemNavigationTarget1)).Key;
+            return (Shell.Current as AppShell).Routes.FirstOrDefault(route => route.Value.Equals(SelectedItemNavigationTarget2)).Key;
         }
 
     }

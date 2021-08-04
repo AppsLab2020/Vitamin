@@ -33,7 +33,7 @@
     <EmbeddedResource Update="Views\TodoItemPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\TodoListPage.xaml">
+    <EmbeddedResource Update="Views\TodoNumPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\VitaminyDetailed.xaml">

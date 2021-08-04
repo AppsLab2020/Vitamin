@@ -23,9 +23,13 @@
         
         <Tab Title="Zápisník" Icon="notes_logo.png">
                 <ShellContent 
-                    
-                    ContentTemplate="{DataTemplate lekarnik:TodoListPage}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Red"/>
-                       </Tab>
+                    Title="List"
+                    ContentTemplate="{DataTemplate lekarnik:TodoListPage}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+
+            <ShellContent
+                Title="Num"
+            ContentTemplate="{DataTemplate lekarnik:TodoNumPage}" Shell.TabBarBackgroundColor="White" Shell.TabBarTitleColor="Blue" Shell.DisabledColor="Red" Shell.UnselectedColor="Black"/>
+        </Tab>
         <Tab Title="Vypocet"   
              Icon="info.png">
         <ShellContent 
