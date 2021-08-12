@@ -15,11 +15,11 @@ namespace Lekarnik
 
         public int Piece { get; set; }
 
-        public int Notes
+        public int num_reg_totales
         {
             get
             {
-                var a = Constants.DatabasePath1.SumItemAsync();
+                var a = App.SQLiteDb.SumItemAsync();
                 return a.Result;
             }
             set { }
