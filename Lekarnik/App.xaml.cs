@@ -10,6 +10,7 @@ namespace Lekarnik
     public partial class App : Application
     {
         static SQLiteHelper db;
+        
 
         public static SQLiteHelper SQLiteDb
         {
@@ -22,6 +23,7 @@ namespace Lekarnik
                 return db;
             }
         }
+
 
         public App()
         {

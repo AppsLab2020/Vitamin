@@ -2,8 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Lekarnik.Models;
+using Lekarnik.Views;
 
-namespace Lekarnik.Models
+namespace Lekarnik
 {
     public class Person
     {
@@ -13,13 +15,14 @@ namespace Lekarnik.Models
 
         public int Piece { get; set; }
 
-        public int num_reg_totales
+        public int Notes
         {
             get
             {
-                var a = App.SQLiteDb.SumItemAsync();
+                var a = Constants.DatabasePath1.SumItemAsync();
                 return a.Result;
             }
+            set { }
         }
     }
 }

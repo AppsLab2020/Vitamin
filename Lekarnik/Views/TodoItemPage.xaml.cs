@@ -1,9 +1,11 @@
 ﻿using System;
 using Lekarnik.Models;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace Lekarnik
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TodoItemPage : ContentPage
     {
         public TodoItemPage()
@@ -17,7 +19,23 @@ namespace Lekarnik
             TodoItemDatabase database = await TodoItemDatabase.Instance;
             await database.SaveItemAsync(todoItem);
             await Navigation.PopAsync();
-        }
+            if (!string.IsNullOrWhiteSpace(pieceEntry.Text))
+            {
+                TodoItem item = new TodoItem()
+            {
+                Piece = int.Parse(pieceEntry.Text)
+            };
+
+            //Add New Person
+            await Constants.DatabasePath1.SaveItemAsync2(item);
+            pieceEntry.Text = string.Empty;
+            }
+            else
+                {
+                    await DisplayAlert("Required", "Please Enter name!", "OK");
+                }
+
+            }
 
         async void OnDeleteClicked(object sender, EventArgs e)
         {

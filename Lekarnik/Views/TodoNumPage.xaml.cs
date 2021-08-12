@@ -23,9 +23,15 @@ namespace Lekarnik
 
             TodoItemDatabase database = await TodoItemDatabase.Instance;
             listView.ItemsSource = await database.GetItemsAsync();
+
+            //Get All Persons
+            
         }
 
-        async void OnItemAdded(object sender, EventArgs e)
+       
+
+
+   async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TodoItemPage
             {

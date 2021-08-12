@@ -4,7 +4,7 @@
         <Label Text="Názov" TextColor="Red" />
         <Entry Text="{Binding Name}" />
         <Label Text="Poznámka" TextColor="Red" />
-        <Entry Text="{Binding Notes}" />
+        <Entry x:Name="pieceEntry" Placeholder="Číslo" TextColor="Black" PlaceholderColor="Silver"></Entry>
         <Label Text="Zjedené" TextColor="Red" />
         <Switch IsToggled="{Binding Done}" />
         <Button Text="Uložiť" Clicked="OnSaveClicked" BackgroundColor="Red" />

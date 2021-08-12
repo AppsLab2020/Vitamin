@@ -34,7 +34,7 @@ namespace Lekarnik.Views
                 Person person = new Person()
                 {
                     Name = txtName.Text,
-                    Piece = int.Parse(pieceEntry.Text)
+                    Piece = int.Parse(pieceEntry.Text) 
                 };
 
                 //Add New Person

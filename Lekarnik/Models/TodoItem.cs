@@ -10,7 +10,15 @@ namespace Lekarnik.Models
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Name { get; set; }
-        public string Notes { get; set; }
-        public bool Done { get; set; }
+        public int Piece { get; set; }
+        public int Notes {
+            get
+            {
+                var a = Constants.DatabasePath1.SumItemAsync();
+                return a.Result;
+            }
+            set { }
+        }
+      
     }
 }
