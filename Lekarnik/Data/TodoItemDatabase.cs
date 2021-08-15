@@ -10,7 +10,7 @@ namespace Lekarnik
     public class TodoItemDatabase
     {
         static SQLiteAsyncConnection Database;
-        SQLiteAsyncConnection Database1;
+        static SQLiteAsyncConnection Database1;
        
 
         public static readonly AsyncLazy<TodoItemDatabase> Instance = new AsyncLazy<TodoItemDatabase>(async () =>
@@ -60,6 +60,10 @@ namespace Lekarnik
         public static Task<int> DeleteAllItems<T>()
         {
             return Database.DeleteAllAsync<TodoItem>();
+        }
+        public static Task<int> DeleteAllItems2<T>()
+        {
+            return Database1.DeleteAllAsync<TodoItem>();
         }
         //spojenie databáz
         public TodoItemDatabase(string dbPath)

@@ -54,6 +54,10 @@ namespace Lekarnik
         {
             await TodoItemDatabase.DeleteAllItems<TodoItem>();
             listView.ItemsSource = null;
+
+            await TodoItemDatabase.DeleteAllItems2<TodoItem>();
+            listView.ItemsSource = null;
+            
         }
 
         protected override bool OnBackButtonPressed()
